@@ -1,0 +1,117 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+
+    .header-container {
+        padding: 20px;
+
+        .header-wrapper {
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+
+            @media screen and (min-width:1100px) {
+                display: flex;
+            }
+
+            .header-navbar-logo__wrapper {
+                display: flex;
+                align-items: center;
+                gap: 55px;
+
+                .header-logo {
+                    cursor: pointer;
+                }
+            }
+
+            .social-media-wrapper {
+                display: flex;
+                align-items: center;
+                gap: 25px;
+
+                a {
+                    .social-media__icon {
+                        width: 24px;
+                        height: 24px;
+                        color: #05223A;
+
+
+                        &:hover {
+                            color: #FF8300;
+                        }
+
+                        &:active {
+                            opacity: 50%;
+                        }
+                    }
+                }
+            }
+
+            .header__btn-contacts {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                .gmail-btn {
+                    color: #4AADFF;
+                    padding: 17px 19px;
+                    font-size: 15px;
+                    line-height: 18px;
+                    border-radius: 60px;
+                    border: 1px solid #4AADFF;
+
+                    &:hover {
+                        color: #FFF;
+                        background-color: #4AADFF;
+                    }
+
+                    &:active {
+                        opacity: 90%;
+                    }
+                }
+
+                .phone-number-btn {
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                    padding: 17px 23px;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    background-color: #FF8300;
+                    border: 1px solid #FF8300;
+                    border-radius: 60px;
+
+                    &:hover {
+                        color: #FF8300;
+                        background-color: #FFF;
+                    }
+
+                    &:active {
+                        opacity: 90%;
+                    }
+                }
+            }
+        }
+
+        .burger {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @media screen and (min-width:1100px) {
+                display: none;
+            }
+
+            &-icon {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}

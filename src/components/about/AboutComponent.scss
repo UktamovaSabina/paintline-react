@@ -1,0 +1,43 @@
+.about-section {
+    .about-container {
+        padding: 100px 20px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        color: #05223A;
+
+        .about-wrapper {
+            max-width: 633px;
+            width: 100%;
+
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 28.64px;
+                margin-bottom: 22px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                margin-top: 15px;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .youtube-video-wrapper {
+                width: 100%;
+                text-align: center;
+
+                .youtube-video {
+                    max-width: 510px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

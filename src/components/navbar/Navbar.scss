@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    a {
+        color: #05223A;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.48px;
+
+        &:hover {
+            color: #FF8300;
+        }
+
+        &:active {
+            opacity: 50%;
+        }
+
+        &.active {
+            color: #FF8300;
+        }
+    }
+}

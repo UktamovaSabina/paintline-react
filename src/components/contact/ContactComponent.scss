@@ -1,0 +1,122 @@
+.contacts-container {
+    padding: 40px 20px 50px 20px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.64px;
+        margin-bottom: 22px;
+    }
+
+    .contacts-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 30px;
+
+        li {
+            h4 {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.09px;
+                opacity: 70%;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 26.25px;
+            }
+        }
+    }
+
+    .location {
+        width: 100%;
+        border: none;
+        margin-bottom: 12px;
+    }
+
+    .tg-whatsup-wrapper {
+        display: flex;
+        align-items: center;
+
+        a {
+            width: 50%;
+            padding: 15px 0 15px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 25px;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 26.25px;
+            color: #FFF;
+
+            .icon {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .telegram {
+            background-color: #2CA5E0;
+            border: 1px solid #2CA5E0;
+
+            &:hover {
+                background-color: #FFF;
+                color: #2CA5E0;
+            }
+        }
+
+        .whatsup {
+            background-color: #27D045;
+            border: 1px solid #27D045;
+
+            &:hover {
+                background-color: #FFF;
+                color: #27D045;
+            }
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+        .contacts-wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .location {
+            margin-bottom: 0px;
+        }
+
+        .tg-whatsup-wrapper {
+            a {
+                padding: 12px 0px 12px 16px;
+                gap: 10px;
+                font-size: 16px;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        .tg-whatsup-wrapper {
+            a {
+                padding: 10px 0px 10px 12px;
+                gap: 5px;
+                font-size: 13px;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}

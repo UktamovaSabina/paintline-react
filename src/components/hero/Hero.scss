@@ -1,0 +1,102 @@
+.hero-container {
+    padding: 20px;
+
+    img {
+        width: 242px;
+        height: 242px;
+        object-fit: cover;
+
+        @media screen and (max-width: 800px) {
+            width: 200px;
+            height: 200px;
+        }
+
+        @media screen and (max-width: 660px) {
+            width: 160px;
+            height: 160px;
+        }
+
+        @media screen and (max-width: 530px) {
+            width: 115px;
+            height: 115px;
+        }
+
+        @media screen and (max-width: 386px) {
+            width: 105px;
+            height: 105px;
+        }
+    }
+
+
+    .hero-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+
+        &__description {
+
+            h1 {
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 47px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 26px;
+                
+                strong {
+                    color: #FF8700;
+                }
+            }
+        }
+
+        &__imgs {
+            display: flex;
+        }
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            &__imgs {
+                align-self: flex-end;
+            }
+        }
+    }
+
+    .hero-medium {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .left {
+            margin-right: 113px;
+        }
+
+        .right {
+            margin-right: 371px;
+        }
+
+        @media screen and (max-width:1010px) {
+            & {
+                justify-content: flex-start;
+                gap: 10%;
+            }
+
+            .left,
+            .right {
+                margin-right: 0px;
+            }
+        }
+    }
+}
