@@ -11,7 +11,7 @@ const Home = () => {
       <Hero />
       <ProductsGroup />
       <Products />
-      <AboutComponent heading={'Коротко о нашей компании'}/>
+      <AboutComponent heading={'Коротко о нашей компании'} />
       <ContactComponent />
     </>
   )

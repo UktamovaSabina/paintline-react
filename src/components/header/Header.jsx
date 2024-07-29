@@ -1,11 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Header.scss';
 import logo from '../../assets/Images/white-logo.png';
-import { TbBrandTelegram, TbBrandInstagram, TbBrandYoutube, TbBrandWhatsapp, TbPhoneCall, TbMenu } from "react-icons/tb";
+import { TbHome2, TbBrandTelegram, TbBrandInstagram, TbBrandYoutube, TbBrandWhatsapp, TbPhoneCall, TbMenu } from "react-icons/tb";
 import Navbar from '../navbar/Navbar';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, Link } from 'react-router-dom';
 
 const Header = () => {
+  const [trackLocation, setTrackLocation] = useState('')
+  const location = useLocation();
+  
+  useEffect(() => {
+    let locationName = location.pathname;
+
+    if (locationName.includes('about')) {
+      setTrackLocation('О нас');
+      return;
+    } else if (locationName.includes('products')) {
+      setTrackLocation('Продукции');
+      return;
+    } else if (locationName.includes('contact')) {
+      setTrackLocation('Контакты');
+      return;
+    } else {
+      setTrackLocation('');
+      return;
+    }
+  }, [location])
+
   return (
     <header>
       <div className='container header-container'>
@@ -29,6 +50,13 @@ const Header = () => {
           <NavLink to={'/'} className='header-logo'><img src={logo} alt="logo" width={119} /></NavLink>
           <TbMenu className='burger-icon' />
         </div>
+
+        {
+          location.pathname === '/' ? <></> : <p className='location-tracker'>
+            <Link to={'/'}><TbHome2 /> Главная</Link>
+            <Link to={location.pathname} className='track'><span>// {trackLocation}</span></Link>
+          </p>
+        }
       </div>
     </header>
   )

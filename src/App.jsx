@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import GroupProducts from './pages/GroupProducts';
 
 import RootLayout from './layout/RootLayout';
+import Products from './pages/Products';
 
 function App() {
   const routes = createBrowserRouter(
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/products' element={<Products />} />
         <Route path='/group/:id' element={<GroupProducts />} />
       </Route>
     )
