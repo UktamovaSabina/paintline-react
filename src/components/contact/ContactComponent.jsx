@@ -21,6 +21,10 @@ const ContactComponent = () => {
             <h4>Отдел продаж:</h4>
             <p>+998(99)520-11-33</p>
           </li>
+          <li>
+            <h4>Электронная почта:</h4>
+            <p>paintlinechemical@mail.ru</p>
+          </li>
         </ul>
         <div>
           <iframe
@@ -33,8 +37,8 @@ const ContactComponent = () => {
             referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className='tg-whatsup-wrapper'>
-          <a href="https://t.me/paintlinechemical" className='telegram'><LiaTelegramPlane className='icon' />t.me/paintlinechemical</a>
-          <a href="https://wa.me/qr/PG7TYXQMALFPG1" className='whatsup'><SiWhatsapp className='icon' /> +998 (99) 520-11-33</a>
+          <a href="https://t.me/paintlinechemical" target={'_blank'} className='telegram'><LiaTelegramPlane className='icon' />t.me/paintlinechemical</a>
+          <a href="https://wa.me/qr/PG7TYXQMALFPG1" target={'_blank'} className='whatsup'><SiWhatsapp className='icon' /> +998 (99) 520-11-33</a>
         </div>
       </div>
     </section>
