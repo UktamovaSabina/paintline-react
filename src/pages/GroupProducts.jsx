@@ -1,10 +1,12 @@
-import React from 'react'
-import ProductsGroup from '../components/groups/ProductsGroup'
+import React from 'react';
+import ProductsGroup from '../components/groups/ProductsGroup';
+import { useTranslation } from 'react-i18next';
 
 const GroupProducts = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <ProductsGroup heading={"Группы Продуктов"}/>
+      <ProductsGroup heading={t("group-products.title1")} />
     </>
   )
 }

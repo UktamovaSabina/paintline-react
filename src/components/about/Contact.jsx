@@ -4,6 +4,7 @@ import whatsup from '../../assets/Images/whatsup.svg';
 import consultant from '../../assets/Images/consultant.svg';
 import { TbPhoneCall } from 'react-icons/tb';
 import { QrContext } from '../../context/QrContext.js';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
     const { setQrShow, setQrLink } = useContext(QrContext);
@@ -11,6 +12,7 @@ const Contact = () => {
         setQrShow(true)
         setQrLink(link)
     }
+    const { t } = useTranslation();
 
     return (
         <>
@@ -19,7 +21,7 @@ const Contact = () => {
                     <div className='consulting-wrapper'>
                         <img src={consultant} alt="consultant icon" width={114} />
                         <div className='consulting-info'>
-                            <p>Хотите получить консультация от специалиста?</p>
+                            <p>{t("about.consulting")}</p>
                             <a href="tel:+998995201133" target={"_blank"} className='phone-number-btn'><TbPhoneCall />+998995201133</a>
                         </div>
                     </div>

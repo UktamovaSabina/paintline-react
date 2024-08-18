@@ -2,27 +2,29 @@ import React from 'react';
 import './ContactComponent.scss';
 import { SiWhatsapp } from "react-icons/si";
 import { LiaTelegramPlane } from "react-icons/lia";
+import { useTranslation } from 'react-i18next';
 
 const ContactComponent = () => {
+  const { t } = useTranslation();
   return (
     <section>
       <div className="container contacts-container">
-        <h2>Контакты</h2>
+        <h2></h2>
         <ul className='contacts-wrapper'>
           <li>
-            <h4>Адрес:</h4>
-            <p>г. Андижан, ул. Машраб, дом 28</p>
+            <h4>{t("contacts.address")}:</h4>
+            <p>{t("contacts.address-name")}</p>
           </li>
           <li>
-            <h4>Админстрация:</h4>
+            <h4>{t("contacts.admin")}:</h4>
             <p>+998(93)332-41-14</p>
           </li>
           <li>
-            <h4>Отдел продаж:</h4>
+            <h4>{t("contacts.sale")}:</h4>
             <p>+998(99)520-11-33</p>
           </li>
           <li>
-            <h4>Электронная почта:</h4>
+            <h4>{t("contacts.email")}:</h4>
             <p>paintlinechemical@mail.ru</p>
           </li>
         </ul>

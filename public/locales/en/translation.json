@@ -1,0 +1,35 @@
+{
+    "header": {
+        "home": "Home"
+    },
+    "footer": "Paintline Chemical - chemistry without limits",
+    "navbar": {
+        "about": "About us",
+        "products": "Products",
+        "contacts": "Contacts"
+    },
+    "hero": {
+        "desc1": "We have concentrated our activities on importing chemical raw materials from the largest European and Asian manufacturers. The main competitive advantages of",
+        "desc2": "are the range of products supplied, favorable financial conditions and high–quality logistics."
+    },
+    "about": {
+        "heading": "About Us",
+        "heading2": "Brief description of our company",
+        "desc1": "We have concentrated our activities on importing chemical raw materials from the largest European and Asian manufacturers. The main competitive advantages of Paintline Chemical are the range of products supplied, favorable financial conditions and high–quality logistics",
+        "desc2": "We supply raw materials for various areas of the chemical industry, including: polymers, PVC, polyurethanes, adhesives, composite materials, construction chemicals, raw materials for the production of coatings, rubber and chemicals for RTI, raw materials for oil and gas production, lubricants, raw materials for detergents, general chemical raw materials, as well as textile fibers and yarns.",
+        "desc3": "We do our best to make it convenient for our clients to work with us.",
+        "consulting": "Do you want to get advice from a specialist?"
+    },
+    "contacts": {
+        "title": "Contacts",
+        "address": "Address",
+        "address-name": "Andijan, Mashrab str. 28",
+        "admin": "Administration",
+        "sale": "Sales department",
+        "email": "Email"
+    },
+    "group-products": {
+        "title1": "Products Group",
+        "title2": "Others"
+    }
+}

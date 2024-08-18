@@ -67,15 +67,7 @@ export const group__products__data = [
             {
                 title: "Углеводородные смолы",
                 desc: ["Большинство этих смол совместимы с полимерами, растворителями и пластификаторами. Они придают адгезию смесям, в которые добавляются.", " Кроме того, благодаря своей ароматической углеводородной и насыщенной природе эти смолы обладают водоотталкивающими свойствами и устойчивы к химическим веществам.", "Основные области применения: Упаковочные, деревянные, книжные переплетные и соединительные клеи"]
-            },
-            {
-                title: "АЦП",
-                desc: ["Это легковоспламеняющаяся, но нетоксичная добавка желтого цвета размером от 2 до 25 микрон, которая позволяет раздувать многие синтетические каучуки, принимать пористую структуру и снижать их плотность.", "Используется для получения губчатой структуры в смесях ЭВА, ПЭ, натурального каучука, NBR - ПВХ."]
-            },
-            {
-                title: "Углеводородные смолы",
-                desc: ["Большинство этих смол совместимы с полимерами, растворителями и пластификаторами. Они придают адгезию смесям, в которые добавляются.", "Кроме того, благодаря своей ароматической углеводородной и насыщенной природе эти смолы обладают водоотталкивающими свойствами и устойчивы к химическим веществам.", "Основные области применения: Упаковочные, деревянные, книжные переплетные и соединительные клеи"]
-            },
+            }
         ]
     },
     {
@@ -315,7 +307,7 @@ export const group__products__data = [
                 desc: ["Это продукт китайского происхождения. Именно наш продукт хорошо зарекомендовал себя на турецком рынке и достиг высоких показателей продаж.", "В частности, наш продукт R 134 A стал брендом на автомобильном рынке как D-gas R 134 A."]
             },
             {
-                title: "Газовые модели: R 134 A",
+                title: "Gas Types: R 134 A",
                 desc: ["Это хладагент, используемый в бытовых компрессорных группах и группах автомобильных кондиционеров. Продается в тубах по 13,6 кг.", "Область применения: R 134 A CFC-12 представляет собой газообразный хладагент, используемый в системах охлаждения мобильных транспортных средств, домашних хозяйств, коммерческих и промышленных зданий, предназначенных для проживания.", "Еще одной областью применения является его использование в качестве вспенивающего агента в жестких пенополиуретановых системах.", "Он также является одним из важнейших компонентов газовых смесей, таких как 404 А и 407 С."]
             },
             {
@@ -407,6 +399,413 @@ export const group__products__data = [
                 desc: [
                     "Метиленхлорид или дихлорметан- представляет собой 2-кратное хлорированное производное метана, широко используемое для снятия краски с деревянных или металлических деталей, а также в других сферах профессиональной деятельности. Это чрезвычайно летучий растворитель.",
                     "Хлористый метилен товарного сорта обычно содержит стабилизатор для защиты от воздействия воздуха и влаги. Наиболее распространенными стабилизаторами и их концентрациями являются: этанол (0,1 - 0,2 %), метанол (0,1-0,2%), циклогексан (0,01-0,03%) и амилол (0,001-0,01%). Могут также использоваться другие стабилизаторы, в том числе фенольные соединения, Амины, нитроалканы, алифатические или циклические эфиры."
+                ]
+            }
+        ]
+    }
+]
+
+export const group__products__data__english = [
+    {
+        id: 1,
+        title: "Performance Chemicals",
+        desc: "This division deals mainly with chemicals serving to adhesives, rubber, cable industries. With our global suppliers which are all experts in their respective field in global market, we offer you new generation solutions.",
+        sub_products: [
+            {
+                title: "PVA: Poly vinyl alcohol",
+                desc: ["It is an odorless and transparent granular powder. They can be obtained as partially or full hydrolized form. Varieties are 5-88, 18-88, 42-88 are used as film, acetal resin, adhesive stabilizer, binder and raw material for vinylone synthetic fiber."]
+            },
+            {
+                title: "EVA: Ethyl vinyl acetate",
+                desc: ["EVA is a synthetic plastic considered  as one of the main components of hotmelt adhesives. There are many types with different VA content and viscosity to prepare slipper and insoles EVA granules."]
+            },
+            {
+                title: "SBS: Styrene butadiene styrene",
+                desc: ["Oil and fat free properties are available;", "application areas are modified bituminous asphalt production, furniture sealant adhesive and in the production of thermo shoe sole compounding."]
+            },
+            {
+                title: "SEBS (Styrene Ethyl Butadiene Styrene):",
+                desc: ["It is a styrene-ethylene-butylene based linear tri-block copolymer used in the production of thermoplastic elastomers.", "It is supplied in powder or granule form.", " Main application areas are window profile gasket, swimming fins and handtools covers."]
+            },
+            {
+                title: "Natural Latex:",
+                desc: ["We carry in our inventory natural latex originated from Malaysia with high or low ammonia content and high mechanical stability which are suitable for use on glove and baloon sector as well as for footwear lamination."]
+            },
+            {
+                title: "SBR Carboxileted Latex (Styrene Latex Rubber):",
+                desc: ["A water-based synthetic latex that is used as a primary coating material in non-woven fabrics, building chemicals and carpets."]
+            },
+            {
+                title: "SBR High Solid Latex (Styrene Latex Rubber):",
+                desc: ["High-content (66-69%), water-based latex, which is the main raw material of the mixture prepared for the production of non-slip carpet, rugs, mop.", "At the same time, bitumen is added in asphalt production for sound deadening.", "It can be used to enhance elasticity to bituminous emulsions in waterproofing applications."]
+            },
+            {
+                title: "SBR 1502 (Styrene Butadiene Rubber):",
+                desc: ["SBR is widely used in automotive, hose, rubber, conveyor belt and rubber footwear applications."]
+            },
+            {
+                title: "TPU : Thermoplastic polyurethanes for adhesives",
+                desc: ["It is excellent in the production of solvent-based adhesives, fabrics, leather, plastic and rubber adhesives with excellent bonding, high rupture resistance, high elasticity, high abrasion resistance."]
+            },
+            {
+                title: "Penta Ester:",
+                desc: ["Penta esters are resins which are suitable for Eva based hotmelt adhesive production,  with properties like softening at 100 degree, resistant to weathering.", "They are compatible with synthetic rubbers such as EVA, SIS, SBS, LDPE and natural rubbers, microcrystalline waxes and paraffins."]
+            },
+            {
+                title: "Ester Gum (Gliserol Ester)",
+                desc: ["With high resistance to oxidation, very low odor and low acidity; it is used as gum mash and in sir wax."]
+            },
+            {
+                title: "GUM Rosin (Kolafan Resin)",
+                desc: ["It is a natural resin with chemical activity when dissolved in organic solvents.", "It is used in paper, ink, rubber, electronic products and soap sector."]
+            },
+            {
+                title: "NBR (Nitrile Butadiene Rubber) :",
+                desc: ["High flexibility and oil resistance even at low temperature values.", "It is used in non-latex gloves for medical applications, safety belts, V-belts, hose and artificial leather industry."]
+            },
+            {
+                title: "EPDM Rubber (Ethylene Propylene Dien Monomer Rubber):",
+                desc: ["EPDM is common used for hose, profile, cable and TPV applications with a with wide use of oil and fat-free synthetic rubber is offered in many qualities."]
+            },
+            {
+                title: "ADC : Azo di carbonamide",
+                desc: ["It is a flammable but non-toxic, yellow colored additive, ranging in size from 2 to 25 microns, which allows many synthetic rubber to expand, to get a porous structure and reduce the densities.", "It is used to have cellular structure like a foam for EVA, PE, Natural Rubber, NBR - PVC mixtures."]
+            },
+            {
+                title: "Hydrocarbon resins:",
+                desc: ["Most of these resins are compatible with polymers, solvents and plasticizers. They increase the adhesion properties on the mixtures they are introduced in.", "Because of their aromatic hydrocarbon-based and saturated nature, these resins are hydrophobic and are resistant to chemicals.", "Main application areas are packaging, wood, book binding and binding adhesives."]
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Polyurethane Raw Materials",
+        desc: "The products indicated below are mainly used as raw materials for the polyurethane systems like (rigid, semi rigid, flexible, footwear, RIM etc) or construction materials, paint, adhesive and elsastomers. Our primary objective is to provide high quanity and consistent supply to our customers from reliable and reputable sources.",
+        sub_products: [
+            {
+                title: "Polimeric MDI",
+                desc: ["High functional oligomer and isomer containing, solvent free 4,4’- diphenylmethane di isocyante with average functionality 2.7.", "Mainly used for rigid foam, pipe insulation, insulation boards, sandwich panel, CASE applications, PUR wood imitations, PUR based adhesives."]
+            },
+            {
+                title: "Modified MDI",
+                desc: ["Carbodiamide modified 4,4’- methylene diphenyldiisocyanate, liquid at room temperature.", "Mainly used for PUR floor coating, adhesives, prepolymer production, CASE applications, RIM and Elastomer applications."]
+            },
+            {
+                title: "Monomeric MDI (Liquid)",
+                desc: ["4,4’ -2,4’ -2,2’- diphenylmethabe diisocyanate mixture, liquid at room temperature.", "Main applications are adhesive, binder, prepolymers, CASE applications, and sport grounds."]
+            },
+            {
+                title: "Monomeric MDI ( Pure )",
+                desc: ["Stored in frozen form with high purity 4,4’ -2,4’ -2,2’- diphenylmethabe diisocyanate monomer.", "It is liquid form at room temperature.", "Main application areas are production of elastomers, prepolymers, TPU, PUR footwaer, synthetic leather, paint and adhesive production."]
+            },
+            {
+                title: "TDI 80/20",
+                desc: ["80% 2,4 20% 2,6’ toluene diisocyanate mixture.", "Mainly used for flexible foam and moulded foam, prepolymers and elastomer production."]
+            },
+            {
+                title: "TDI 100",
+                desc: ["2,4 – tolven diisocyanate at 99.7% purity.", "Mainly used for coating, paint and elastomer production."]
+            },
+            {
+                title: "Polyols & Polyether amines",
+                desc: ["Polyols are the main part of a component reacting with isocynates for diverse polyurethane applications like rigid, flexible, conventional slab stock, CASE, elastomer applications.", "They vary within a broad range of OH value and viscosity like mannich, sucrose, sorbitol, propyleneglicol, long / short chain polyol and polimeric polyols."]
+            },
+            {
+                title: "Polyester polyols",
+                desc: ["Aromatic and lineer polyesther polyols are mainly used for elastomers, polyurethane foam, coating resins and PUR based flloor coating."]
+            },
+            {
+                title: "Polyether amines",
+                desc: ["These polyether based amines are used mainly on Polyurea and Epoxy applications with diverse molecular weight."]
+            },
+            {
+                title: "PTMEG (Politetramethylene ether glicol)",
+                desc: ["PTMEG is produced with the polimerization of tetra hydroforane.", "Main applications are Spandex, elastomers, synthetic leather, paint and coating agents and adhesives production."]
+            },
+            {
+                title: "Filter Systems",
+                desc: ["Polyurethane system for the sealing of filters mainly used for automotive industries. Excellent mechanical properties with high elongation and tear strength, available in different hardnesses."]
+            },
+            {
+                title: "Rigid Systems",
+                desc: ["Aside the spray foam, pipe insulation, panel and solar energy foam systems low density decoration systems are used as wood imitation."]
+            },
+            {
+                title: "Footwear Systems",
+                desc: ["We provide all types of polyurethane footwear systems for slippers, soles and insoles based on the needs and wants of our customers with superior mechanical properties, elasticity and densities ranging between 27-45 kg/m3."]
+            },
+            {
+                title: "RTV 2 K Silicones",
+                desc: ["2 component silicones vulcanizing on room temperature, enabling the production of moulds for wood imitation polyurethane systems."]
+            },
+            {
+                title: "Mould release agents",
+                desc: ["Both water or solvent based release agents enabling safe and easy demoulding of polyurethane articles produced with rigid, semi-rigid, flexible, RIM and integral processing methods."]
+            },
+            {
+                title: "Solvents",
+                desc: ["We always have in our inventory methylene chloride, DMF and PCE ( per chlor ethylene) ."]
+            },
+            {
+                title: "Catalysts",
+                desc: ["Supporting material in the combination of polyol formulations. Common used catalists for flexible and rigid foam applications are:"]
+            },
+            {
+                title: "DETDA",
+                desc: ["Curing agent for polyurethane and epoxy resins as well as used for Polyurethane and polyurea elastomers as aromatic chain extender."]
+            },
+            {
+                title: "Hollow Spheres",
+                desc: ["Glass spheres used to reduce the density of wood imitation polyurethane foam"]
+            },
+            {
+                title: "MOCA",
+                desc: ["Curing agent for polyurethane elastomers, casting polyurethanes, epoxy and epoxy resins."]
+            },
+            {
+                title: "1-4 Butanediol",
+                desc: ["Mainly used on the production of polyurethane and polyester resin production as alifatic diol based chain extender. Additionally used on cast elastomer and polyester polyol production."]
+            },
+            {
+                title: "Flame retardant",
+                desc: ["TCPP is mainly used as flame retardant on rigid and flexible polyurethane systems, PVC and EVA based resins."]
+            },
+            {
+                title: "Rubber binder",
+                desc: ["A type of prepolymer to adhere the rubber granules for Rubber floor coatings.", "Based on applications there are two types of products in different viscosity for moulded and on site applications."]
+            },
+            {
+                title: "Epoxy Resins & Hardeners",
+                desc: ["They are general purpose resins mainly used for floor coating, adhesives, anti corosion paints, coil and metal coating. They can be both with sovents or solvent free."]
+            },
+            {
+                title: "TDI 80/20 Toluene Dissocyanate",
+                desc: [
+                    "Toluene diisocyanate (TDI) allows the production of rigid polyurethane foams that are resistant to high temperatures",
+                    "Toluene diisocyanate is used as a chemical intermediate in the production of polyurethane products such as foams, coatings and elastomers.",
+                    "Use in industry: • Adhesives and chemical sealants; • Intermediate products; • Solvents (which are part of the product or mixture)",
+                    "Consumer use: • Adhesives and sealants; • Paints and coatings",
+                    "Household and Commercial/Institutional Products: • Home Services; • Personal hygiene",
+                    "General information about production. Industry Manufacturing sectors: • Glue production; • Production of furniture and related products; • Production of paints and coatings; • Production of plastic materials and resins; • Production of transport equipment; • Wholesale and retail trade",
+                    "Properties in nature: colorless transparent or light yellow flammable liquid. There is a strong irritating odor. Boiling point 247°C. Melting point 19.5-21.5°C. Flash point 127°C. The relative density was 1.217."
+                ]
+            },
+            {
+                title: "POLYETHER POLYOL / PPG3000",
+                desc: [
+                    "For the production of polyurethane foams (PUFs), two main components are used - polyols and isocyanates. When they interact, they enter into a chemical reaction, foam, after which the mass hardens.", "The physicochemical properties of the finished polyurethane foam depend on the quality of the polyols, their characteristics, the ratio with isocyanates and the additives introduced.", "Foamed compounds are used for building materials, furniture, sound insulation, in the manufacture of cars, toys, sports equipment, and as a heat-insulating material.",
+                ]
+            },
+            {
+                title: "Aropol G 101 ТPВ",
+                desc: [
+                    "Aropol G 101 TPB is a thixotropic pre-accelerated resin on an orthophthalic base, characterized by low viscosity and reduced styrene emissions. The resin quickly saturates the fiberglass, making the recycling process quick and less labor-intensive.",
+                    "Aropol G 101 TRB resin is suitable for spraying and hand molding. Examples of products are car parts, panels, sports and outdoor equipment. The color of the resin is not fixed and may vary from batch to batch."
+                ]
+            },
+            {
+                title: "POP 45",
+                desc: [
+                    "It is usually white or pale yellow in color. And this is a type of polyol containing an organic filler, which can replace an inorganic filler. This allows not only to give polyurethane foam high load-bearing capacity and good elasticity, but also to improve the pore structure of the bubbles, physical and mechanical properties.", "The foam sponge production process uses 13% and 45% solid polymer polyols with 3000 molecular weight polyester as the main material."
+                ]
+            },
+        ]
+    },
+    {
+        id: 3,
+        title: "Paint and Coating Raw Materials",
+        desc: "Our company, which has been the representative of Helios Group in Uzbekistan since 2023, has become one of the important stakeholders of the Uzbek paint and varnish industry with the raw materials it supplies, among others, for OEM paints, industrial coatings, road marking paints and metal coating paints.",
+        sub_products: [
+            {
+                title: "Resins: Alkyde resins: Modified resins: Water based alkyde resins",
+                desc: ["They are resins obtained by the combination of polyester and oil-specific groups.", "The fatty acids add the characteristics and flexibility of the alkyd.", "They are mainly used in printing inks, decorative paints and varnishes for wood materials, metal decorative paints and industrial paints and varnishes dried with air in ovens."]
+            },
+            {
+                title: "Acrylic resins Hydroksi acrylic resins Thermoplastic acrylic resins ",
+                desc: ["These resins have an outstanding place among the coating formulations, such as color and gloss, alkali and oxidation resistance, hardness, adhesion and bond strength and film life.", "It is used in 2K applications such as auto repair, furniture and industrial paints, concrete curing, road marking and metal coating paints."]
+            },
+            {
+                title: "Polyester resins",
+                desc: ["Polyester resins are thick,viscous, almost colorless liquids.", "They are mainly used in furnace dried metal paints, OEM putty and top coat applications and can and coil coating applications."]
+            },
+            {
+                title: "1K road marking resins",
+                desc: ["The physical and Chemical resistance is relatively higher than alkyde resins used for chlorinated rubber. No chalking."]
+            },
+            {
+                title: "2 K road marking resins",
+                desc: ["It is used to prepare two component road marking paints in desired colors, with laying, structure and spray application.", "It is a kind of road marking paint that is long-lasting and adheres very strongly to the surface."]
+            },
+            {
+                title: "Hydocarbon resins",
+                desc: ["C5 Aliphatic hydrocarbon resins, very light color (2-3), excellent in adherence;", "C9 aromatic hydrocarbon resins;", "color value 4-8, very good adherence.", "Variety in different colors and quality, mainly used for for industrial paint, hot melt adhesives and printing ink production."]
+            },
+            {
+                title: "Thermoplastic Resins",
+                desc: ["Water and solvent based Cement Curing Agent and concrete selaler resins. Thermoplastic resins are used to increase the tensile and bending strength of the material.", "Thermoplastics, widely used in the automotive sector, are also used in high performance material solutions in aviation industry."]
+            },
+            {
+                title: "Aliphatic isocyanates",
+                desc: ["Aliphatic isocyanates 75: These isocyanates have solid content of 75 % and NCO value of 16.0-16.6. They are used with hydroxyl functional acrylic resins. It is also used as isocyanate in single and double component prepolymers of different polyurethane resin systems.", "Aliphatic isocyanates 100: These isocyanates have solid content of 100 % and NCO value of 22.5-23.9. They are HDI based isocyanates used for non yellowing 2 K systems."]
+            },
+            {
+                title: "Aromatic isocyanates",
+                desc: ["These isocynates have solid content of 75 % and NCO value of 12.7-13.7.", "Although it is mainly used for furniture paintings and rigid foams as hardener, there are new applications for adhesives and synthetic leathers as well."]
+            },
+            {
+                title: "PMDI",
+                desc: ["High functional oligomer and isomer containing, solvent free 4,4’- diphenylmethane di isocyante with average functionality 2.7.", "Mainly used for rigid foam, pipe insulation, insulation boards, sandwich panel, CASE applications, PUR wood imitations, PUR based adhesives."]
+            },
+            {
+                title: "80/20 TDI (Toluen di isocyanate)",
+                desc: ["0% 2,4 20% 2,6’ toluene diisocyanate mixture.", "Mainly used for flexible foam and moulded foam, prepolymers and elastomer production."]
+            },
+            {
+                title: "Auxilary Materials: Glas spheres:",
+                desc: ["The thermoplastic, cold, and dual-component MMA road markers are transparent and spherical glass particles that spill over onto the paintwork and reflect the light and provide better night vision to the driver.", "There are also uncoated, silicone and silane coated versions available."]
+            },
+            {
+                title: "Auxilary Materials: Di Benzoyl Peroxide:",
+                desc: ["It is used as a hardener by two component MMA road marking paints."]
+            },
+            {
+                title: "Epoxy resin DY 128",
+                desc: [
+                    "DY-128 epoxy resin is a reaction product of diphenylolpropane (Bisphenol A) with epichlorohydrin.",
+                    "It is used both in pure form and as a starting material for the production of epoxy compounds.",
+                    "High adhesive ability, can be used on various surfaces.",
+                    "Good mechanical properties and chemical resistance.",
+                    "Cures with all types of epoxy hardeners, both hot and cold curing.",
+                    "Application: Production of fiberglass reinforcement, insulating and protective coatings, self-leveling floors, adhesives, sealants, laminate coatings, casting compounds, etc.",
+                    "Epoxy resin DY 128 is an uncured diane epoxy resin. Hardeners can be used to cure it."
+                ]
+            },
+            {
+                title: "Domacryl 850 60 T",
+                desc: [
+                    "Domacryl 850 60 T is an air-drying polyacrylic resin developed primarily for the production of road marking paint. Used alone or in combination with acrylic resin or chlorinated paraffin.",
+                    "Road marking paints based on Domacryl 850 60 T have good durability and good resistance to yellowing."
+                ]
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Thermoplastic Polyurethanes",
+        desc: "Paintline Chemical, which has expanded its activities in recent years with TPU material, the consumption of which has been increasing in recent years due to its high mechanical properties, supplies TPU from 65 Shore A to 97 Shore A for textile coatings, adhesives, the footwear industry and manufacturing. injections.",
+        sub_products: [
+            {
+                title: "Main application fields :",
+                desc: ["Footwear soles; Delinators; Mobile phone covers; Rollers; Animal tags; Pipes; Cables; Bra holders; TPU snow chains"]
+            }
+        ]
+    },
+    {
+        id: 5,
+        title: "Cooling Systems",
+        desc: "Since 2023, Paintline Chemical has been leading the sector with its own registered brands in the Turkish market, leading the sector with Siberia® brand hermetic compressors, D-Gas® brand refrigerants, insulated and non-insulated copper pipes and auxiliary materials.",
+        sub_products: [
+            {
+                title: "Герметичные компрессоры «Сибирь»:",
+                desc: ["Siberia brand has proved itself in the Turkish refrigeration market and has a long service life. It serves with 5 models to the Turkish market."]
+            },
+            {
+                title: "D-Gas® cooling liquids:",
+                desc: ["Our D-Gas cooling liquids are toll manufactured in China on one of the biggest producer of the World. It has proven itself in both local and export markets achievde to high sales figures.", "In particular , our R 134 a was branded as D-Gas R 134a and very well perceived in the automotive market."]
+            },
+            {
+                title: "Gas Types: R 134 A",
+                desc: ["Cooling liquid used in home appliance’s compressor sets and auto air conditioners. It is available in 13.6 kg cylinders.", "Application : R 134 A is a refrigerant to replace CFC-12 in mobile, residential, commercial and industrial refrigeration systems.", "An other application area is the usage on rigid polyurethane foam applications as blowing agent. It is also used as an important blend part for refrigerants like 404 A, 407C etc."]
+            },
+            {
+                title: "Gas Types: R 404 A",
+                desc: ["Cooling liquid used in industrial applications. THese include cold storage rooms, market cabins, butcher and bakery fridges etc. It is available in 9.8kg and 10.9 kg cylinders.", "Application : Retrofitted refrigerant for R 502"]
+            },
+            {
+                title: "Gas Types: Р 407 С",
+                desc: ["Cooling liquids used in central airconditioning and industrial applications. Main application areas are shopping malls, hotels, hospitals, factories etc.", "It is available in 9.8 kg and 11.35 kg cylinders", "Application : Retrofitted refrigerant for R 22"]
+            },
+            {
+                title: "Gas Types: Р 410 А",
+                desc: ["Cooling liquid used in air conditioning for both split and VRV applications. They are available in 9.8 kg and 11.35 kg cylinders.", "Application : Refrigerant for airconditioning split &vrv systems"]
+            },
+            {
+                title: "Copper pipes: Copper pipe Pancake:",
+                desc: ['Our products have the highest available quality and originated from Uzbekistan.', 'Due to high quality and easy processing are well perceived and demanded in the market. They are provided as split and VRV to the market. 50 meter coils are measured in 1/4 "- 3/4" and imported in 0,70mm, 0,80mm, 1,00mm thickness.']
+            },
+            {
+                title: "Copper Pipe LWC",
+                desc: ["Our products have the highest available quality and originated from Uzbekistan.", "All dimensions and thicknesses from 0.32 mm to 1.00 mm are imported based on customer needs. "]
+            },
+            {
+                title: "Insulated Copper Pipe:",
+                desc: ['Our imported copper pipes are isolated in o our own facility.", "It is manufactured at 0,70 mm, 0,80 mm and 1,00 mm thicknesses and 9 mm - 13 mm insulation thicknesses in all the dimensions required by our customers (1/4 "-3/4").", "Insulated copper pipes are non flameable and available in 50 meter coils.']
+            }
+        ]
+    },
+    {
+        id: 6,
+        title: "Hot melt adhesives",
+        desc: "Hot melt adhesives are formulations that become liquid when heated and are thermoplastic adhesives that quickly harden when cooled. D-TECH hot melt systems provide adhesion to a variety of materials in a wide variety of industries. Derkim Kimya A.Ş. offers the most optimal technological solution with its high-performance adhesives for the most special and complex requirements with D-TECH Hotmelt systems.",
+        sub_products: [
+            {
+                title: "Advantages of D-TECH hot melt systems:",
+                desc: ["High production speed with short drying times depending on the application;", "100% solids, does not contain water;", "Smoothing surface roughness;", "Possibility of gluing different materials, wide palette of glues;", "Heat capacity and therefore can be used in pre-coating;", "Re-opening with heated clutch (recirculation)"]
+            }
+        ]
+    },
+    {
+        id: 7,
+        title: "Isocyanates",
+        desc: "Isocyanates are one of the two main components that are used to produce rigid polyurethane foam. When interacting with a polyol, they form a mixture that foams, increases in size, and then hardens. PUF is produced by spraying or pouring, but in both cases it is impossible to do without isocyanate as the main component. Its quality and ratio with the polyol is critical in determining the properties of the polymer.",
+        sub_products: [
+            {
+                title: "Unate L-75",
+                desc: ["Unate L75 is widely used in high quality paints and coatings for wood and furniture."]
+            },
+            {
+                title: "Coronate HX / HXR",
+                desc: [
+                    "CORONATE HXR and HX is a hardener for non-yellowing polycarbonate paints that offers superior performance to the hiuret or adduct type hardeners CORONATE HXR and HX, widely used in the paint industry for a variety of applications such as motorcycle and automobile repainting. This is due to its resistance to high temperatures, high salt in solvents and impurities in waterwolves.",
+                    "The combination of CORONATE HXR and HX with acrylic polyols produces a non-yellowing paint with excellent weathering and UV resistance so that its original color can be retained for a long time. This two-component type of paint is used for auto repair, industrial purposes, etc. Combining CORONATE HXR and HX with alkyd polyols produces a two-component paint that is used for industrial purposes, wood finishing, etc. Adding CORONATE HXR and Hx to some paints on based on nitrocellulose or polyurethane significantly improves their physical properties, such as chemical resistance to solvents."
+                ]
+            },
+            {
+                title: "Coronate MPAX 75",
+                desc: [
+                    "CORONATE MPAX-75 is a modified HDI-based polyisocyanate containing isocinurate. It contains about 75% solids with xylene monomethyl ether acetate and propylene glycol.",
+                    "It is a hardener for two-component, non-yellowing polyurethane paints with excellent weather resistance.",
+                    "CORONATE MPAX-75 is widely used in the paint industry for various applications such as motorcycle parts, auto refinishing, wood finishing, etc. This is due to its high temperature resistance, high solubility in solvents and good compatibility with polyols."
+                ]
+            },
+            {
+                title: "Hardner for Epoxy and Polyether resin",
+                desc: [
+                    "It is used to reduce the curing time of epoxy and polyester resins and paint and varnish coatings based on them, adding them immediately before applying them to the surface to be finished. Has increased flammability and toxicity"
+                ]
+            }
+        ]
+    },
+    {
+        id: 8,
+        title: "Solvents",
+        desc: "Solvent is a substance that can dissolve other solid, liquid or gaseous substances without changing them chemically. Typically, at atmospheric pressure and room temperature, the solvent is a liquid substance. Accordingly, in solutions that are mixtures of liquid and solid or liquid and gaseous substances, the solvent is considered to be the liquid component. In mixtures of liquid substances, the solvent is the component that is present in a significantly larger quantity, or in an arbitrary manner.",
+        sub_products: [
+            {
+                title: "LS-AGE",
+                desc: ["It provides good flexibility and adhesion on non-polar surfaces and exhibits excellent wetting properties. Mainly as a reactive diluent for high viscosity epoxy resins, compatible with epoxy resin in all concentrations, and also for enhancing hardener", "Widely used in high quality epoxy floor coatings, food epoxy paints, epoxy potting materials, casting materials, adhesives, insulation materials and flooring"]
+            },
+            {
+                title: "Benzyl Alcohol",
+                desc: [
+                    "Benzyl alcohol is a good solvent with an average Bolling temperature. It is mainly applied to silver curing modifier and solvent for epoxy resins", "1. Epoxy paint, epoxy flooring, sealing, epoxy glue and epoxy decorations.", "2. Medical synthetic solvent, preservative for ointments or liquid medicines.", "3. Photographic developer, cleaning agent, synthetic glass solvent and lens tint.", "4. Solvent for meat products, ink for stamps and oil for ballpoint pens.", "5. Perfumery fixative, an essential component of jasmine, tuberose or ylang, perfume composition, soap and daily cosmetics."
+                ]
+            },
+            {
+                title: "Dichloromethane (DCM, methylene chloride)",
+                desc: [
+                    "Methylene chloride or dichloromethane is a 2-fold chlorinated derivative of methane, widely used for removing paint from wood or metal parts, as well as in other professional areas. It is an extremely volatile solvent.",
+                    "Commercial grade methylene chloride usually contains a stabilizer to protect against exposure to air and moisture. The most common stabilizers and their concentrations are: ethanol (0.1 - 0.2%), methanol (0.1-0.2%), cyclohexane (0.01-0.03%) and amylol (0.001-0. 01%). Other stabilizers may also be used, including phenolic compounds, amines, nitroalkanes, aliphatic or cyclic ethers."
                 ]
             }
         ]

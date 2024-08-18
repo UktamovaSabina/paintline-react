@@ -1,16 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { group__products__data } from '../../db/database.js';
+import { group__products__data as russian, group__products__data__english as english } from '../../db/database.js';
 import ProductsGroup from '../groups/ProductsGroup.jsx';
-import './Products.scss'
+import './Products.scss';
+import { useTranslation } from 'react-i18next';
 
 const Products = () => {
   const { id } = useParams();
   const [data, setData] = useState(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
-    setData(group__products__data.find(d => d.id === +id));
-  }, [id])
+    if (localStorage.getItem("lang") === "en") {
+      setData(english.find(d => d.id === +id))
+      return;
+    } else {
+      setData(russian.find(d => d.id === +id))
+    }
+  }, [id, localStorage.getItem("lang")])
 
   return (
     <>
@@ -39,8 +46,8 @@ const Products = () => {
           }
         </div>
       </section>
-      <ProductsGroup heading="Рекомендуемые продукты" id={id}/>
-      </>
+      <ProductsGroup heading={t("group-products.title2")} id={id} />
+    </>
   )
 }
 

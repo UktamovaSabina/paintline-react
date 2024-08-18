@@ -7,15 +7,18 @@ import pic4 from '../../assets/hero/barrel.jpg';
 import pic5 from '../../assets/hero/barrels.jpg';
 import pic6 from '../../assets/hero/factory.jpg';
 import pic7 from '../../assets/hero/lab.jpg';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+    const { t } = useTranslation();
+
     return (
         <section>
             <div className='container hero-container'>
                 <div className='hero-top'>
                     <div className='hero-top__description'>
                         <h1>Paintline Chemical</h1>
-                        <p>Мы сконцентрировали свою деятельность на импорте химического сырья от крупнейших европейских и азиатских производителей. Основные конкурентные преимущества <strong>«Paintline Chemical»</strong> – ассортимент поставляемой продукции, выгодные финансовые условия и качественная логистика.</p>
+                        <p>{t("hero.desc1")} <strong>«Paintline Chemical»</strong> {t("hero.desc2")}</p>
                     </div>
                     <div className='hero-top__imgs'>
                         <img src={pic1} alt="paintline chemical handshake" className='left' />

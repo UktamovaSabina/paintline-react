@@ -5,29 +5,32 @@ import { TbHome2, TbBrandTelegram, TbBrandInstagram, TbBrandLinkedin, TbBrandWha
 import Navbar from '../navbar/Navbar';
 import { NavLink, useLocation, Link } from 'react-router-dom';
 import HeaderMobile from './HeaderMobile';
+import i18n from '../../language/i18next';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const [trackLocation, setTrackLocation] = useState('')
   const [menu, setMenu] = useState(false)
   const location = useLocation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     let locationName = location.pathname;
 
     if (locationName.includes('about')) {
-      setTrackLocation('О нас');
+      setTrackLocation(t("navbar.about"));
       return;
     } else if (locationName.includes('groups')) {
-      setTrackLocation('Продукции');
+      setTrackLocation(t("navbar.products"));
       return;
     } else if (locationName.includes('contact')) {
-      setTrackLocation('Контакты');
+      setTrackLocation(t("navbar.contacts"));
       return;
     } else {
       setTrackLocation('');
       return;
     }
-  }, [location])
+  }, [location, localStorage.getItem("lang")])
 
   const showMenu = () => {
     setMenu(true)
@@ -56,17 +59,19 @@ const Header = () => {
           <NavLink to={'/'} className='header-logo'><img src={logo} alt="logo" width={119} /></NavLink>
           <TbMenu className='burger-icon' />
         </div>
-       {
-        menu ?  <HeaderMobile setMenu={setMenu}/> : <></>
-       }
+        {
+          menu ? <HeaderMobile setMenu={setMenu} /> : <></>
+        }
 
         {
           location.pathname === '/' ? <></> : <p className='location-tracker'>
-            <Link to={'/'}><TbHome2 /> Главная</Link>
+            <Link to={'/'}><TbHome2 />  {t("header.home")}</Link>
             <Link to={location.pathname} className='track'><span>// {trackLocation}</span></Link>
           </p>
         }
       </div>
+      <button onClick={() => { i18n.changeLanguage("ru"); console.log(localStorage.getItem("lang")); }}>ru</button>
+      <button onClick={() => { i18n.changeLanguage("en"); console.log(localStorage.getItem("lang")); }}>en</button>
     </header>
   )
 }
