@@ -1,59 +1,43 @@
-.products-table-section {
-    .products-table-container {
-        padding: 60px 20px 130px 20px;
+.products-section {
+    .container {
+        padding: 20px;
 
         h2 {
-            font-size: 22px;
-            font-weight: 400;
-            line-height: 26.25px;
-            margin-bottom: 30px;
-            margin-left: 15px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38px;
+            margin-bottom: 20px;
         }
 
-        .products-table__wrapper {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-            grid-auto-rows: auto;
-            gap: 1px;
+        .desc {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
 
-            a {
-                padding: 35px 28px 47px 27px;
-                color: #05223A;
-                border: 1px solid #E4E4E4;
+        .sub-pr {
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 21.48px;
+                margin-bottom: 6px;
+            }
 
-                h3 {
-                    font-size: 18px;
-                    font-weight: 500;
-                    line-height: 22px;
-                    margin-bottom: 13px;
-                }
+            ul {
+                margin-bottom: 20px;
 
-                p {
-                    font-size: 13px;
-                    font-weight: 400;
-                    line-height: 16px;
-                    opacity: 60%;
-                }
-
-                &:hover {
-                    color: #FFF;
-                    background-color: #FF8700;
-                    box-shadow: #05223A -5px 5px;
-                    z-index: 100;
-
-                    h3 {
-                        color: #FFF;
+                li {
+                    p {
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 15.51px;
+                        opacity: 80%;
                     }
                 }
-
-                &:active {
-                    opacity: 60%;
-                }
             }
-        }
-
-        @media screen and (max-width: 1000px) {
-            padding-bottom: 100px;
         }
     }
 }

@@ -29,7 +29,7 @@ const ContactComponent = () => {
         <div>
           <iframe
             className='location'
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96678.76778807599!2d72.3196454!3d40.77936435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc901d6b13d4ef%3A0xfc45bcaa7973dfac!2z0JDQvdC00LjQttCw0L0sINCQ0L3QtNC40LbQsNC90YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2s!4v1722109669070!5m2!1sru!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.461905215491!2d72.34842549999999!3d40.7518644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bcecdbfddc4169%3A0xe0faf38b1994c325!2z0JDQvdC00LjQttCw0L0sINCQ0L3QtNC40LbQsNC90YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2s!4v1722400817968!5m2!1sru!2s"
             width="600"
             height="450"
             allowFullScreen=""

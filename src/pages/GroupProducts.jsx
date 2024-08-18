@@ -1,8 +1,11 @@
 import React from 'react'
+import ProductsGroup from '../components/groups/ProductsGroup'
 
 const GroupProducts = () => {
   return (
-    <div>GroupProducts</div>
+    <>
+      <ProductsGroup heading={"Группы Продуктов"}/>
+    </>
   )
 }
 

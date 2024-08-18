@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <NavLink to={'/about'}>О нас</NavLink>
-      <NavLink to={'/products'}>Продукции</NavLink>
+      <NavLink to={'/groups'}>Продукции</NavLink>
       <NavLink to={'/contact'}>Контакты</NavLink>
     </nav>
   )
