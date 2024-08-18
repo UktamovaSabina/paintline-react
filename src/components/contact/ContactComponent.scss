@@ -17,6 +17,7 @@
 
         li {
             width: fit-content;
+
             h4 {
                 font-size: 16px;
                 font-weight: 400;
@@ -116,6 +117,15 @@
                     width: 20px;
                     height: 20px;
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .tg-whatsup-wrapper {
+            a {
+                font-size: 10px;
+                font-weight: 300px;
             }
         }
     }

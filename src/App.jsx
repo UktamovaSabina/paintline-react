@@ -7,7 +7,6 @@ import GroupProducts from './pages/GroupProducts';
 
 import RootLayout from './layout/RootLayout';
 import Products from './components/products/Products';
-import SingleProduct from './components/single-product/SingleProduct';
 
 function App() {
   const routes = createBrowserRouter(
@@ -18,7 +17,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/groups' element={<GroupProducts />} />
         <Route path='/groups/:id' element={<Products/>} />
-        <Route path='/product/:id' element={<SingleProduct/>} />
       </Route>
     )
   )
