@@ -1,11 +1,12 @@
 import React from 'react';
 import './Hero.scss';
-import gif1 from '../../assets/gifs/asdas.gif';
-import gif2 from '../../assets/gifs/boss_worker.gif';
-import gif3 from '../../assets/gifs/donation.gif';
-import gif4 from '../../assets/gifs/labaratory.gif';
-import gif5 from '../../assets/gifs/postman.gif';
-import gif6 from '../../assets/gifs/stock.gif';
+import pic1 from '../../assets/hero/handshake.jpg';
+import pic2 from '../../assets/hero/delivery.jpg';
+import pic3 from '../../assets/hero/truck.jpg';
+import pic4 from '../../assets/hero/barrel.jpg';
+import pic5 from '../../assets/hero/barrels.jpg';
+import pic6 from '../../assets/hero/factory.jpg';
+import pic7 from '../../assets/hero/lab.jpg';
 
 const Hero = () => {
     return (
@@ -17,18 +18,18 @@ const Hero = () => {
                         <p>Мы сконцентрировали свою деятельность на импорте химического сырья от крупнейших европейских и азиатских производителей. Основные конкурентные преимущества <strong>«Paintline Chemical»</strong> – ассортимент поставляемой продукции, выгодные финансовые условия и качественная логистика.</p>
                     </div>
                     <div className='hero-top__imgs'>
-                        <img src={gif1} alt="" />
-                        <img src={gif2} alt="" />
+                        <img src={pic1} alt="paintline chemical handshake" className='left' />
+                        <img src={pic2} alt="paintline chemical delivery" />
                     </div>
                 </div>
                 <div className='hero-medium'>
-                    <img src={gif3} alt="" />
-                    <img src={gif4} alt="" />
-                    <img src={gif5} alt="" />
+                    <img src={pic3} alt="paintline chemical truck delivery" />
+                    <img src={pic4} alt="paintline chemical metal barrels" />
+                    <img src={pic5} alt="paintline chemical metal barrels in a storage" />
                 </div>
                 <div className='hero-bottom'>
-                    <img src={gif6} alt="" className='left' />
-                    <img src={gif1} alt="" className='right' />
+                    <img src={pic6} alt="paintline chemical factory" />
+                    <img src={pic7} alt="paintline chemical labaratory" className='right' />
                 </div>
             </div>
         </section>
