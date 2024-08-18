@@ -55,6 +55,18 @@
         }
     }
 
+    .language-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        span {
+            color: #05223A66;
+            cursor: pointer;
+        }
+    }
+
     .mobile__social-media-wrapper {
         display: flex;
         align-items: center;

@@ -27,10 +27,21 @@ header {
                 }
             }
 
+            .language-btns {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                span {
+                    color: #05223A66;
+                    cursor: pointer;
+                }
+            }
+
             .social-media-wrapper {
                 display: flex;
                 align-items: center;
-                gap: 25px;
+                gap: 15px;
 
                 a {
                     .social-media__icon {

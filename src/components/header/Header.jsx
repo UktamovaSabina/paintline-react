@@ -44,6 +44,11 @@ const Header = () => {
             <NavLink to={'/'} className='header-logo'><img src={logo} alt="logo" width={119} /></NavLink>
             <Navbar />
           </div>
+          <p className='language-btns'>
+            <span style={localStorage.getItem("lang") === "ru" ? { color: "#05223A" } : null} onClick={() => { i18n.changeLanguage("ru") }}>RU</span>
+            |
+            <span style={localStorage.getItem("lang") === "en" ? { color: "#05223A" } : null} onClick={() => { i18n.changeLanguage("en") }}> ENG</span>
+          </p>
           <div className='social-media-wrapper'>
             <a href="https://www.instagram.com/xom_ashyo?igsh=end3ODhrdTg4a3N4&utm_source=qr" target={'_blank'}><TbBrandInstagram className='social-media__icon' /></a>
             <a href="https://t.me/paintlinechemical" target={"_blank"}><TbBrandTelegram className='social-media__icon' /></a>
@@ -70,8 +75,6 @@ const Header = () => {
           </p>
         }
       </div>
-      <button onClick={() => { i18n.changeLanguage("ru"); console.log(localStorage.getItem("lang")); }}>ru</button>
-      <button onClick={() => { i18n.changeLanguage("en"); console.log(localStorage.getItem("lang")); }}>en</button>
     </header>
   )
 }
