@@ -17,15 +17,15 @@ const ContactComponent = () => {
           </li>
           <li>
             <h4>{t("contacts.admin")}:</h4>
-            <p>+998(93)332-41-14</p>
+            <p><a href="tel:+998943754775" target={"_blank"}>+998(94)375-47-75</a></p>
           </li>
           <li>
             <h4>{t("contacts.sale")}:</h4>
-            <p>+998(99)520-11-33</p>
+            <p><a href="tel:+998995201133" target={"_blank"}>+998(99)520-11-33</a></p>
           </li>
           <li>
             <h4>{t("contacts.email")}:</h4>
-            <p>paintlinechemical@mail.ru</p>
+            <p><a rel="noopener noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&to=paintlinechemical@mail.ru' target={'_blank'}>paintlinechemical@mail.ru</a></p>
           </li>
         </ul>
         <div>
@@ -40,7 +40,7 @@ const ContactComponent = () => {
         </div>
         <div className='tg-whatsup-wrapper'>
           <a href="https://t.me/paintlinechemical" target={'_blank'} className='telegram'><LiaTelegramPlane className='icon' />t.me/paintlinechemical</a>
-          <a href="https://wa.me/qr/PG7TYXQMALFPG1" target={'_blank'} className='whatsup'><SiWhatsapp className='icon' /> +998 (99) 520-11-33</a>
+          <a href="https://wa.me/998995201133" target={'_blank'} className='whatsup'><SiWhatsapp className='icon' /> +998 (99) 520-11-33</a>
         </div>
       </div>
     </section>

@@ -41,7 +41,7 @@ const Header = () => {
       <div className='container header-container'>
         <div className="header-wrapper">
           <div className='header-navbar-logo__wrapper'>
-            <NavLink to={'/'} className='header-logo'><img src={logo} alt="logo" width={119} /></NavLink>
+            <NavLink to={'/'} className='header-logo'><img src={logo} alt="logo" width={150} /></NavLink>
             <Navbar />
           </div>
           <p className='language-btns'>
@@ -52,7 +52,7 @@ const Header = () => {
           <div className='social-media-wrapper'>
             <a href="https://www.instagram.com/xom_ashyo?igsh=end3ODhrdTg4a3N4&utm_source=qr" target={'_blank'}><TbBrandInstagram className='social-media__icon' /></a>
             <a href="https://t.me/paintlinechemical" target={"_blank"}><TbBrandTelegram className='social-media__icon' /></a>
-            <a href="https://wa.me/qr/PG7TYXQMALFPG1" target={"_blank"}><TbBrandWhatsapp className='social-media__icon' /></a>
+            <a href="https://wa.me/998995201133" target={"_blank"}><TbBrandWhatsapp className='social-media__icon' /></a>
             <a href="https://www.linkedin.com/in/paintline-chemical" target={"_blank"}><TbBrandLinkedin className='social-media__icon' /></a>
           </div>
           <div className='header__btn-contacts'>

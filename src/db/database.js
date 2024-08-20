@@ -376,7 +376,31 @@ export const group__products__data = [
                 desc: [
                     "Используется для сокращения времени отвержения эпоксидных и полиэфирных смол и лакокрасочных покрытий на их основе, добавляясь непосредственно перед нанесением их на отделываемую поверхность. Обладает повышенной огнеопасностью и токсичностью"
                 ]
-            }
+            },
+            {
+                title: "Полимерный MDI",
+                desc: ["представляет собой продукт, не содержащий растворителей, содержащий высокофункциональные олигомеры и изомеры в среднем 2,7 функции с содержанием 4,4'-дифенилметана диизоцианата.", "Полиуретановая жесткая пена используется в полиуретановых жестких конструкциях и теплоизоляционных панелях, приложениях CASE, полиуретановой имитации дерева, полиуретановых клеях и изоляции труб."]
+            },
+            {
+                title: "Модифицированный MDI",
+                desc: ["представляет собой модифицированный карбодиамид 4,4'-метилендиизоцианат, который находится в жидкой форме при комнатной температуре.", "Полиуретан используется в производстве напольных покрытий, клеев, преполимеров, CASE, RIM и эластомеров."]
+            },
+            {
+                title: "Мономерный MDI (жидкий)",
+                desc: ["Это продукт, представляющий собой смесь 2,4'-2,2'-дифенилметана диизоцианата в жидкой форме при комнатной температуре.", "Он используется в клеях, связующих, преполимерах, красках, CASE и спортивных полах."]
+            },
+            {
+                title: "Мономерный MDI (чистый MDI)",
+                desc: ["представляет собой мономер 4,4'-2,4'-2,2'-дифенилметана диизоцианата, который необходимо хранить в тусклом состоянии высокой чистоты.", "Существует в жидком виде при комнатной температуре.", "Он используется в эластомерах, преполимерах, ТПУ, полиуретановых обувных системах, синтетической коже, красках и клеях."]
+            },
+            {
+                title: "TDI 80/20",
+                desc: ["представляет собой смесь 80% 2,4-толуолдиизоцианата, 20% 2,6-толуолдиизоцианата.", "Применяется в производстве гибких губок и пенопластов, в производстве преполимеров и эластомеров."]
+            },
+            {
+                title: "TDI 100",
+                desc: ["представляет собой 2,4-толуолдиизоцианат чистотой 99,7%.", "Он используется в производстве лакокрасочных материалов и эластомеров."]
+            },
         ]
     },
     {
@@ -783,7 +807,31 @@ export const group__products__data__english = [
                 desc: [
                     "It is used to reduce the curing time of epoxy and polyester resins and paint and varnish coatings based on them, adding them immediately before applying them to the surface to be finished. Has increased flammability and toxicity"
                 ]
-            }
+            },
+            {
+                title: "Polimeric MDI",
+                desc: ["High functional oligomer and isomer containing, solvent free 4,4’- diphenylmethane di isocyante with average functionality 2.7.", "Mainly used for rigid foam, pipe insulation, insulation boards, sandwich panel, CASE applications, PUR wood imitations, PUR based adhesives."]
+            },
+            {
+                title: "Modified MDI",
+                desc: ["Carbodiamide modified 4,4’- methylene diphenyldiisocyanate, liquid at room temperature.", "Mainly used for PUR floor coating, adhesives, prepolymer production, CASE applications, RIM and Elastomer applications."]
+            },
+            {
+                title: "Monomeric MDI (Liquid)",
+                desc: ["4,4’ -2,4’ -2,2’- diphenylmethabe diisocyanate mixture, liquid at room temperature.", "Main applications are adhesive, binder, prepolymers, CASE applications, and sport grounds."]
+            },
+            {
+                title: "Monomeric MDI ( Pure )",
+                desc: ["Stored in frozen form with high purity 4,4’ -2,4’ -2,2’- diphenylmethabe diisocyanate monomer.", "It is liquid form at room temperature.", "Main application areas are production of elastomers, prepolymers, TPU, PUR footwaer, synthetic leather, paint and adhesive production."]
+            },
+            {
+                title: "TDI 80/20",
+                desc: ["80% 2,4 20% 2,6’ toluene diisocyanate mixture.", "Mainly used for flexible foam and moulded foam, prepolymers and elastomer production."]
+            },
+            {
+                title: "TDI 100",
+                desc: ["2,4 – tolven diisocyanate at 99.7% purity.", "Mainly used for coating, paint and elastomer production."]
+            },
         ]
     },
     {

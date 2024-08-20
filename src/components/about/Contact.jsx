@@ -29,7 +29,7 @@ const Contact = () => {
                         <div className='telegram-icon-wrapper' onClick={() => { showQrCode('https://t.me/paintlinechemical') }}>
                             <img src={telegram} alt="telegram icon" />
                         </div>
-                        <div onClick={() => { showQrCode('https://wa.me/qr/PG7TYXQMALFPG1') }}>
+                        <div onClick={() => { showQrCode('https://wa.me/998995201133') }}>
                             <img src={whatsup} alt="whatsup icon" />
                         </div>
                     </div>
