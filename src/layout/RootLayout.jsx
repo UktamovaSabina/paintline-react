@@ -6,7 +6,7 @@ import Footer from '../components/footer/Footer';
 import { QrContext } from '../context/QrContext.js';
 import { QRCodeSVG } from 'qrcode.react';
 import { LiaWindowCloseSolid } from "react-icons/lia";
-import { useLocation } from 'react-router-dom';
+import ScrollToTop from '../helpers/scrollToTop';
 
 const RootLayout = () => {
   const [qrShow, setQrShow] = useState(false);
@@ -14,11 +14,11 @@ const RootLayout = () => {
   const closeQrCode = () => {
     setQrShow(false)
   }
-  const { t } = useLocation();
 
   return (
     <QrContext.Provider value={{ setQrShow, setQrLink }}>
       <Header />
+      <ScrollToTop />
       <main>
         <Outlet />
       </main>
