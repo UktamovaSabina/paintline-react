@@ -372,7 +372,7 @@ export const group__products__data = [
                 ]
             },
             {
-                title: "Отвердитель  (Эпоксид и Полиэфирная смола) || Hardner for Epoxy and Polyether resin",
+                title: "Отвердитель  (Эпоксид и Полиэфирная смола) || Hardener (Epoxy and Polyester resin)",
                 desc: [
                     "Используется для сокращения времени отвержения эпоксидных и полиэфирных смол и лакокрасочных покрытий на их основе, добавляясь непосредственно перед нанесением их на отделываемую поверхность. Обладает повышенной огнеопасностью и токсичностью"
                 ]
@@ -803,7 +803,7 @@ export const group__products__data__english = [
                 ]
             },
             {
-                title: "Hardner for Epoxy and Polyether resin",
+                title: "Hardener (Epoxy and Polyester resin)",
                 desc: [
                     "It is used to reduce the curing time of epoxy and polyester resins and paint and varnish coatings based on them, adding them immediately before applying them to the surface to be finished. Has increased flammability and toxicity"
                 ]
