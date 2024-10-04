@@ -426,7 +426,77 @@ export const group__products__data = [
                 ]
             }
         ]
-    }
+    },
+    {
+        id: 9,
+        title: "Жесткие полиуретановые системы",
+        desc: "Пенополиуретан – искусственный полимерный материал, который на 85-90% состоит из газа, что снижает суммарную плотность материала. Для изготовления используют смешивание между собой двух компонентов, к которым могут быть дополнительно внесены антипиреновые добавки. Компонент А представляет смесь полиола или полиэфира с рядом других веществ, которые выполняют несколько задач: ускорение протекания химической реакции; регулирование размера ячеек и стабилизации за счет наличия поверхностно активных веществ (ПАВ), которые играют роль пенорегуляторов; антипирены, служащие для повышения пожарной безопасности. Полиизоционат выступает в качестве компонента Б. Он представляет коричневую жидкость с неприятным запахом. Вещество играет при производстве пенополиуретана роль отвердителя и отвечает за жесткость готового изделия.",
+        sub_products: [
+            {
+                title: "Системы распыления пенополиуретана",
+                desc: ["Это полиуретановые системы, применяемые методом напыления. Выполнение в форме мобильного приложения дает преимущество применения во всех типах строительных площадок и высотных сооружений.", "Благодаря распылению и нанесению на месте он принимает форму нанесенной поверхности, что позволяет наносить его практически на любую область и поверхность"]
+            },
+            {
+                title: "Солнечные энергетические и бойлерные системы",
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые для изоляции резервуаров для воды и бойлеров солнечных электростанций.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."]
+            },
+            {
+                title: "Холодильные системы",
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые при производстве бытовых холодильников, морозильных камер, мини-баров, промышленных холодильников и шкафов для мороженого.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."]
+            },
+            {
+                title: "Системы изоляции труб и резервуаров",
+                desc: ["Это полиуретановые системы, применяемые методом литья под давлением. Это полиуретановые системы, используемые в трубопроводах горячей и холодной воды, изоляции резервуаров и геотермальных трубопроводах. Распыление может быть применено с помощью распылительных машин и литьевых машин. Он позволяет производить геотермальные трубы длиной до 12 м."]
+            },
+            {
+                title: "Системы имитации досок и декоративных изделий",
+                desc: ["Это полиуретановые системы, используемые при изготовлении имитации дерева и декоративных изделий. По сравнению с деревом, это предпочтительный материал, особенно из-за его влагостойкости", "Папье-маше, зеркальным рамам, ножкам столов и кресел, изголовьям кроватей, фасадным панелям доступно декоративное и изоляционное применение."]
+            },
+            {
+                title: "Панельные системы для холодильных камер",
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, позволяющие изготавливать панели длиной до 12 м и толщиной до 20 см. Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу.", "Он используется для изоляции холодильных камер, обычно используемых для хранения мяса, фруктов, овощей и других пищевых продуктов, а также для изготовления холодильных ноябрь и производство мобильных кабин."]
+            },
+            {
+                title: "Упаковочные пенопластовые системы",
+                desc: ["При плотности 8-15 кг/м3 вместо пенополистирола используется упаковочный пенопласт. Полиуретановая система, которая принимает форму только контейнера с материалом, который должен быть упакован, без необходимости использования каких-либо форм, и при этом материал остается неподвижным, не перемещаясь внутри упаковки, является предпочтительной, особенно при упаковке материалов из стекла или электронных устройств."]
+            },
+            {
+                title: "Непрерывные панельные системы",
+                desc: ["Это полиуретановые системы, используемые в сэндвич-пан деках, которые изготавливаются путем нанесения между двумя пластинами в форме металл-металл или металл-мембрана непрерывными линиями. Доступны системы с плотностью 35-40 кг/м3 и классом сгорания B1, B2, B3. В этих системах используются экологически чистые инфляционные газы нового поколения."]
+            },
+            {
+                title: "Фриго холодильные системы и модульные панели",
+                desc: ["Это полиуретановые системы, которые можно использовать методом литья под давлением или заготовки. Это полиуретановая система, используемая для изоляции транспортных средств, используемых при транспортировке по холодовой цепи. В системе впрыска нет необходимости использовать какой-либо клей для обеспечения адгезии материала к стеклопластику или металлу."]
+            },
+            {
+                title: "Системы звукоизоляции",
+                desc: ["Это предпочтительная полиуретановая система для применений, где требуется звукоизоляция. Это причина выбора по сравнению с другими материалами из-за его применения с системой распыления. Это полиуретановый материал, который идеально подходит для приложений с высоким уровнем шума, таких как кинотеатры, дискотеки, бары и конференц-залы."]
+            },
+            {
+                title: "Полиуретановые системы мебельной промышленности",
+                desc: ["Это двухкомпонентные полиуретановые системы, используемые в мебельной промышленности. Это экологически чистые полиуретановые системы, которые предпочтительнее использовать вместо древесины, поскольку они обладают более высокой термостойкостью и механической прочностью."]
+            },
+            {
+                title: "Минеральная вата - клей Xps -Eps",
+                desc: ["Это смесь полиола, содержащего пенополистирол и клей из минеральной ваты, а также полиол и катализатор, которые используются в производстве сэндвич-панелей и не содержат ГХФУ."]
+            },
+            {
+                title: "Полиизоциануратные (Пир) системы",
+                desc: ["Это полиуретановые системы, применяемые методом напыления, литья под давлением или блочного литья. Выполнение в форме мобильного приложения дает преимущество применения во всех типах строительных площадок и высотных сооружений. Это полиуретановые системы, используемые в трубопроводах горячей и холодной воды, изоляции резервуаров и геотермальных трубопроводах."]
+            }
+        ]
+    },
+    // {
+    //     id: 10,
+    //     title: "Гидроизоляционные и облицовочные системы",
+    //     desc: "",
+    //     sub_products: [
+    //         {
+    //             title: "Гидроизоляционная Полимочевина",
+    //             desc: ["Это 100% твердая и гибкая ароматическая система из чистого полимочевины с очень быстрым отверждением, образующаяся в результате реакции изоцианатного преполимера и смолы с конечным содержанием амина. Это быстрая и простая система нанесения покрытий, которая создает пленку с высокой прочностью и прочностью на поверхностях, на которые она нанесена, благодаря превосходным физическим свойствам, которыми она обладает. Его можно наносить на многие виды полов, включая бетон, металл, дерево, керамику и пенополиуретан, для гидроизоляции и защиты от коррозии. Это экологически чистое покрытие, поскольку не содержит растворителей и летучих компонентов. Поскольку он не может быть чувствительным к влажности и температуре, его можно применять во многих погодных условиях. Этот материал следует наносить с помощью многокомпонентных распылителей высокого давления и с подогревом."]
+    //         }
+    //     ]
+    // }
 ]
 
 export const group__products__data__english = [
@@ -857,5 +927,75 @@ export const group__products__data__english = [
                 ]
             }
         ]
-    }
+    },
+    {
+        id: 9,
+        title: "Rigid polyurethane systems",
+        desc: "Polyurethane foam is an artificial polymer material that consists of 85-90% gas, which reduces the total density of the material. For manufacturing, two components are mixed together, to which flame retardants can be additionally added. Component A is a mixture of polyol or polyester with a number of other substances that perform several tasks: acceleration of the chemical reaction; regulation of cell size and stabilization due to the presence of surfactants (surfactants), which play the role of foam regulators; flame retardants used to enhance fire safety. Polyisocyanate acts as a component of B. It is a brown liquid with an unpleasant odor. The substance plays the role of a hardener in the production of polyurethane foam and is responsible for the rigidity of the finished product.",
+        sub_products: [
+            {
+                title: "Spraying Polyurethane Foam Systems",
+                desc: ["They are polyurethane systems applied by spraying method. Being made in the form of a mobile application provides the advantage of application in all kinds of construction site environments and high structures.", "Thanks to spraying and on-site application, it takes the shape of the applied surface and thus provides the opportunity to be applied on almost all kinds of areas and surfaces"]
+            },
+            {
+                title: "Solar Energy And Boiler Systems",
+                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the insulation of water tanks and boilers of solar energy systems.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."]
+            },
+            {
+                title: "Refrigerator And Refrigerant Systems",
+                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the production of household refrigerators, freezers, minibars, industrial refrigerators and ice cream cabinets.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."]
+            },
+            {
+                title: "Pipe And Tank Insulation Systems",
+                desc: ["They are polyurethane systems applied by injection method. They are polyurethane systems used in hot – cold water pipelines, tank insulation and geothermal pipelines.", "Spraying can be applied with spray machines and injection molding machines. it allows the production of geothermal pipes up to 12 m long."]
+            },
+            {
+                title: "Imitation Of Wood And Decorative Product Systems",
+                desc: ["They are polyurethane systems used in the production of imitation wood and decorative products. Compared to wood, it is the preferred material especially due to its resistance to moisture, fireproof property and superior mechanical strength.", "Papier-mâché, mirror frames, table and armchair legs, headboards, decorative and insulation uses are available in facade cladding."]
+            },
+            {
+                title: "Cold Room Panel Systems",
+                desc: ["They are polyurethane systems applied by molding method. they are polyurethane systems that allow the production of panels up to 12m long and 20 cm thick. Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal.", "It is mainly used in the insulation of cold storage rooms used for the storage of meat, fruits, vegetables and other food products, the manufacture of refrigerated November boxes and the production of MOBO cabins."]
+            },
+            {
+                title: "Packaging Foam Systems",
+                desc: ["it is a packaging foam material used instead of styrofoam with a density of 8-15 kg/m3. It is a polyurethane system that takes the shape of the container containing only the material to be packaged without the need for any mold, and the material remains stationary without moving in the package, especially when packaging materials made of glass or electronic devices."]
+            },
+            {
+                title: "Continuous Panel Systems",
+                desc: ["They are polyurethane systems used in sandwich panels produced by applying metal-metal or metal-membrane Decoupled between two plates in continuous lines. There are systems with 35-40 kg/m3 density and B1, B2, B3 combustion class. A new generation of environmentally friendly inflating gases are used in these systems."]
+            },
+            {
+                title: "Frigo refrigeration systems and modular panels",
+                desc: ["These are polyurethane systems that can be used by injection molding or billet. It is a polyurethane system used to insulate vehicles used in cold chain transportation. There is no need to use any adhesive in the injection system to ensure the adhesion of the material to fiberglass or metal."]
+            },
+            {
+                title: "Sound Insulation Systems",
+                desc: ["Sound insulation is a preferred polyurethane system for desired applications. It is the reason of preference compared to other materials due to its application with spraying system. It is a polyurethane material with excellent properties for applications with high sound level problems such as movie theaters, disco, bars, conference halls."]
+            },
+            {
+                title: "Furniture Industry Polyurethane Systems",
+                desc: ["They are two-component polyurethane systems used in the furniture industry. They are environmentally friendly polyurethane systems that are preferred to be used instead of wood because their thermal and mechanical resistance is superior."]
+            },
+            {
+                title: "Mineral Wool Glue Xps -Eps",
+                desc: ["It is a mixture of polyol containing polystyrene foam and rock wool adhesive and polyol containing catalyst and HCFC-free used for various insulation purposes in sandwich panel production."]
+            },
+            {
+                title: "Polyisocyanurate (Pir) Systems",
+                desc: ["They are polyurethane systems applied by spraying, injection or block casting method. Being made in the form of a mobile application provides the advantage of application in all kinds of construction site environments and high structures. They are polyurethane systems used in hot – cold water pipelines, tank insulation and geothermal pipelines."]
+            }
+        ]
+    },
+    // {
+    //     id: 10,
+    //     title: "",
+    //     desc: "",
+    //     sub_products: [
+    //         {
+    //             title: "",
+    //             desc: [""]
+    //         }
+    //     ]
+    // }
 ]
