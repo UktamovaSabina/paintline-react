@@ -434,39 +434,48 @@ export const group__products__data = [
         sub_products: [
             {
                 title: "Системы распыления пенополиуретана",
-                desc: ["Это полиуретановые системы, применяемые методом напыления. Выполнение в форме мобильного приложения дает преимущество применения во всех типах строительных площадок и высотных сооружений.", "Благодаря распылению и нанесению на месте он принимает форму нанесенной поверхности, что позволяет наносить его практически на любую область и поверхность"]
+                desc: ["Это полиуретановые системы, применяемые методом напыления. Выполнение в форме мобильного приложения дает преимущество применения во всех типах строительных площадок и высотных сооружений.", "Благодаря распылению и нанесению на месте он принимает форму нанесенной поверхности, что позволяет наносить его практически на любую область и поверхность"],
+                img: "/assets/products/rigid/kopuk.jpg"
             },
             {
                 title: "Солнечные энергетические и бойлерные системы",
-                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые для изоляции резервуаров для воды и бойлеров солнечных электростанций.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."]
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые для изоляции резервуаров для воды и бойлеров солнечных электростанций.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."],
+                img: "/assets/products/rigid/solar_energy.jpg"
             },
             {
                 title: "Холодильные системы",
-                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые при производстве бытовых холодильников, морозильных камер, мини-баров, промышленных холодильников и шкафов для мороженого.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."]
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, используемые при производстве бытовых холодильников, морозильных камер, мини-баров, промышленных холодильников и шкафов для мороженого.", "Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу."],
+                img: "/assets/products/rigid/fridge.jpg"
             },
             {
                 title: "Системы изоляции труб и резервуаров",
-                desc: ["Это полиуретановые системы, применяемые методом литья под давлением. Это полиуретановые системы, используемые в трубопроводах горячей и холодной воды, изоляции резервуаров и геотермальных трубопроводах. Распыление может быть применено с помощью распылительных машин и литьевых машин. Он позволяет производить геотермальные трубы длиной до 12 м."]
+                desc: ["Это полиуретановые системы, применяемые методом литья под давлением. Это полиуретановые системы, используемые в трубопроводах горячей и холодной воды, изоляции резервуаров и геотермальных трубопроводах. Распыление может быть применено с помощью распылительных машин и литьевых машин. Он позволяет производить геотермальные трубы длиной до 12 м."],
+                img: "/assets/products/rigid/pipe.jpg"
             },
             {
                 title: "Системы имитации досок и декоративных изделий",
-                desc: ["Это полиуретановые системы, используемые при изготовлении имитации дерева и декоративных изделий. По сравнению с деревом, это предпочтительный материал, особенно из-за его влагостойкости", "Папье-маше, зеркальным рамам, ножкам столов и кресел, изголовьям кроватей, фасадным панелям доступно декоративное и изоляционное применение."]
+                desc: ["Это полиуретановые системы, используемые при изготовлении имитации дерева и декоративных изделий. По сравнению с деревом, это предпочтительный материал, особенно из-за его влагостойкости", "Папье-маше, зеркальным рамам, ножкам столов и кресел, изголовьям кроватей, фасадным панелям доступно декоративное и изоляционное применение."],
+                img: "/assets/products/rigid/wood.jpg"
             },
             {
                 title: "Панельные системы для холодильных камер",
-                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, позволяющие изготавливать панели длиной до 12 м и толщиной до 20 см. Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу.", "Он используется для изоляции холодильных камер, обычно используемых для хранения мяса, фруктов, овощей и других пищевых продуктов, а также для изготовления холодильных ноябрь и производство мобильных кабин."]
+                desc: ["Это полиуретановые системы, применяемые методом формования. Это полиуретановые системы, позволяющие изготавливать панели длиной до 12 м и толщиной до 20 см. Благодаря превосходным адгезионным свойствам нет необходимости использовать дополнительный клей для прилипания к металлу.", "Он используется для изоляции холодильных камер, обычно используемых для хранения мяса, фруктов, овощей и других пищевых продуктов, а также для изготовления холодильных ноябрь и производство мобильных кабин."],
+                img: "/assets/products/rigid/cold_room.jpg"
             },
             {
                 title: "Упаковочные пенопластовые системы",
-                desc: ["При плотности 8-15 кг/м3 вместо пенополистирола используется упаковочный пенопласт. Полиуретановая система, которая принимает форму только контейнера с материалом, который должен быть упакован, без необходимости использования каких-либо форм, и при этом материал остается неподвижным, не перемещаясь внутри упаковки, является предпочтительной, особенно при упаковке материалов из стекла или электронных устройств."]
+                desc: ["При плотности 8-15 кг/м3 вместо пенополистирола используется упаковочный пенопласт. Полиуретановая система, которая принимает форму только контейнера с материалом, который должен быть упакован, без необходимости использования каких-либо форм, и при этом материал остается неподвижным, не перемещаясь внутри упаковки, является предпочтительной, особенно при упаковке материалов из стекла или электронных устройств."],
+                img: "/assets/products/rigid/foam.jpg"
             },
             {
                 title: "Непрерывные панельные системы",
-                desc: ["Это полиуретановые системы, используемые в сэндвич-пан деках, которые изготавливаются путем нанесения между двумя пластинами в форме металл-металл или металл-мембрана непрерывными линиями. Доступны системы с плотностью 35-40 кг/м3 и классом сгорания B1, B2, B3. В этих системах используются экологически чистые инфляционные газы нового поколения."]
+                desc: ["Это полиуретановые системы, используемые в сэндвич-пан деках, которые изготавливаются путем нанесения между двумя пластинами в форме металл-металл или металл-мембрана непрерывными линиями. Доступны системы с плотностью 35-40 кг/м3 и классом сгорания B1, B2, B3. В этих системах используются экологически чистые инфляционные газы нового поколения."],
+                img: "/assets/products/rigid/continuous_panel.jpg"
             },
             {
                 title: "Фриго холодильные системы и модульные панели",
-                desc: ["Это полиуретановые системы, которые можно использовать методом литья под давлением или заготовки. Это полиуретановая система, используемая для изоляции транспортных средств, используемых при транспортировке по холодовой цепи. В системе впрыска нет необходимости использовать какой-либо клей для обеспечения адгезии материала к стеклопластику или металлу."]
+                desc: ["Это полиуретановые системы, которые можно использовать методом литья под давлением или заготовки. Это полиуретановая система, используемая для изоляции транспортных средств, используемых при транспортировке по холодовой цепи. В системе впрыска нет необходимости использовать какой-либо клей для обеспечения адгезии материала к стеклопластику или металлу."],
+                img: "/assets/products/rigid/frigo.jpg"
             },
             {
                 title: "Системы звукоизоляции",
@@ -474,7 +483,8 @@ export const group__products__data = [
             },
             {
                 title: "Полиуретановые системы мебельной промышленности",
-                desc: ["Это двухкомпонентные полиуретановые системы, используемые в мебельной промышленности. Это экологически чистые полиуретановые системы, которые предпочтительнее использовать вместо древесины, поскольку они обладают более высокой термостойкостью и механической прочностью."]
+                desc: ["Это двухкомпонентные полиуретановые системы, используемые в мебельной промышленности. Это экологически чистые полиуретановые системы, которые предпочтительнее использовать вместо древесины, поскольку они обладают более высокой термостойкостью и механической прочностью."],
+                img: "/assets/products/rigid/furniture.jpg"
             },
             {
                 title: "Минеральная вата - клей Xps -Eps",
@@ -486,17 +496,62 @@ export const group__products__data = [
             }
         ]
     },
-    // {
-    //     id: 10,
-    //     title: "Гидроизоляционные и облицовочные системы",
-    //     desc: "",
-    //     sub_products: [
-    //         {
-    //             title: "Гидроизоляционная Полимочевина",
-    //             desc: ["Это 100% твердая и гибкая ароматическая система из чистого полимочевины с очень быстрым отверждением, образующаяся в результате реакции изоцианатного преполимера и смолы с конечным содержанием амина. Это быстрая и простая система нанесения покрытий, которая создает пленку с высокой прочностью и прочностью на поверхностях, на которые она нанесена, благодаря превосходным физическим свойствам, которыми она обладает. Его можно наносить на многие виды полов, включая бетон, металл, дерево, керамику и пенополиуретан, для гидроизоляции и защиты от коррозии. Это экологически чистое покрытие, поскольку не содержит растворителей и летучих компонентов. Поскольку он не может быть чувствительным к влажности и температуре, его можно применять во многих погодных условиях. Этот материал следует наносить с помощью многокомпонентных распылителей высокого давления и с подогревом."]
-    //         }
-    //     ]
-    // }
+    {
+        id: 10,
+        title: "Гидроизоляционные и облицовочные системы",
+        desc: "",
+        sub_products: [
+            {
+                title: "Гидроизоляционная Полимочевина - Activecoat Pure",
+                desc: ["Это 100% твердая и гибкая ароматическая система из чистого полимочевины с очень быстрым отверждением, образующаяся в результате реакции изоцианатного преполимера и смолы с конечным содержанием амина.", "Это быстрая и простая система нанесения покрытий, которая создает пленку с высокой прочностью и прочностью на поверхностях, на которые она нанесена, благодаря превосходным физическим свойствам, которыми она обладает.", "Его можно наносить на многие виды полов, включая бетон, металл, дерево, керамику и пенополиуретан, для гидроизоляции и защиты от коррозии.", "Это экологически чистое покрытие, поскольку не содержит растворителей и летучих компонентов. Поскольку он не может быть чувствительным к влажности и температуре, его можно применять во многих погодных условиях. Этот материал следует наносить с помощью многокомпонентных распылителей высокого давления и с подогревом."],
+                img: "/assets/products/waterproof/pool.jpg"
+            },
+            {
+                title: "Гибридная полимочевина - Activecoat Hb",
+                desc: ["Это 2-компонентная гибридная полимочевинная система, которая очень быстро отверждается.", "В качестве альтернативы чистым полимочевинным системам его можно использовать на различных поверхностях для защиты и нанесения покрытий, а также на поверхностях, не требующих такой химической стойкости, как чистая полимочевина.", "Он не чувствителен к влаге и реагирует за считанные секунды.", "Его следует применять с помощью многокомпонентных машин с высоким давлением и подогревом."],
+                img: "/assets/products/waterproof/hb.jpg"
+            },
+            {
+                title: "Алифатическая полимочевина - Activecoat Alp Pure 501-155",
+                desc: [
+                    "Это 100% твердый, устойчивый к ультрафиолетовому излучению гибкий материал покрытия. Это покрытие, предназначенное для обеспечения высокой цветостойкости и предотвращения выцветания на полах, подверженных постоянному воздействию солнечного света.", "Его можно наносить непосредственно на многие полы, а также использовать в качестве верхнего слоя на эпоксидных, полиуретановых и полимочевинных системах.", "Он обладает высокой цветостойкостью и устойчивостью к ультрафиолетовому излучению. При полном отверждении он образует материал покрытия с высокой прочностью на растяжение и истирание.", "Этот материал следует наносить с помощью многокомпонентных распылителей высокого давления и с подогревом."
+                ],
+                img: "/assets/products/waterproof/alp.jpg"
+            },
+            {
+                title: "Полиаспарагиновая полимочевина - Activecoat Pap Pure 601-156",
+                desc: ["Полиаспарагиновая полимочевина - это двухкомпонентная система напольного покрытия из полимочевины нового поколения с алифатическими свойствами, которая обеспечивает желаемое покрытие пола, устойчивое к ультрафиолетовому излучению и стойкое к выцветанию.", "Эту систему можно использовать непосредственно в качестве тонкого покрытия, а также наносить поверх существующих покрытий в качестве верхнего слоя.", "Он обладает высокой устойчивостью к царапинам и ударам.", "Его можно наносить на пол валиком, щеткой или безвоздушной системой."],
+                img: "/assets/products/waterproof/pap.jpg"
+            },
+            {
+                title: "Ручная смесь полимочевина - Activecoat Handmix 701-157",
+                desc: ["Это самовыравнивающийся, 100% твердый, гибкий двухкомпонентный полимочевинный материал, который можно смешивать вручную.", "Продукт позволяет смешивать и использовать вручную из-за медленного гелеобразования.", "Этот превосходный материал используется для затирки швов и ремонта.", "Практика может проводиться в сложных погодных условиях и открыта для пешеходного движения через 1 час после практики.", "Он безопасно используется в холодильных камерах и на предприятиях пищевой промышленности, где важны температура и время."],
+                img: "/assets/products/waterproof/handmix.jpg"
+            },
+            {
+                title: "Полимочевина для питьевой воды и пищевых продуктов - Activecoat Fca Pure 401-154",
+                desc: ["Это 100% твердая и гибкая ароматическая система из чистой полимочевины с очень быстрым отверждением.", "Благодаря превосходным физическим свойствам, которыми он обладает, он образует пленку с высокой прочностью и прочностью на поверхностях, на которые он нанесен.", "Эта полимочевина специально изготовлена для использования в напольных покрытиях, контактирующих с питьевой водой."]
+            },
+            {
+                title: "Жидкая мембрана из ароматического полиуретана Activecoat Lm 500",
+                desc: ["ACTIVECOAT LM 500 представляет собой однокомпонентный жидкий гидроизоляционный материал на основе полиуретана.", "Он отверждается влагой из воздуха.", "Он отлично прилипает к различным поверхностям, образуя высокоэластичную и прочную пленку.", "Он обладает отличными механическими и химическими свойствами, обладает высокой устойчивостью к растяжению, разрыву и истиранию.", "Он активен при передаче водяного пара. Пленка пропускает воздух и предотвращает скопление влаги в нижнем слое. Обладая эластичной структурой, он способен преодолевать трещины ретре.", "Продукт содержит полностью чистую эластомерную гидрофобную полиуретановую смолу и специальные неорганические добавки. Его легко применять."],
+                img: "/assets/products/waterproof/lm-500.jpg"
+            },
+            {
+                title: "Жидкая мембрана из алифатического полиуретана Activecoat Al-Lm 500",
+                desc: ["ACTIVECOAT LM 500 представляет собой однокомпонентный жидкий гидроизоляционный материал на основе полиуретана.", "Он отверждается влагой из воздуха. Он отлично прилипает к различным поверхностям, образуя высокоэластичную и прочную пленку.", "Он обладает отличными механическими и химическими свойствами, обладает высокой устойчивостью к растяжению, разрыву и истиранию.", "Он активен при передаче водяного пара. Пленка пропускает воздух и предотвращает скопление влаги в нижнем слое. Обладая эластичной структурой, он способен преодолевать трещины ретре.", "Продукт содержит полностью чистую эластомерную гидрофобную полиуретановую смолу и специальные неорганические добавки. Его легко применять."],
+                img: "/assets/products/waterproof/al-lm-500.jpg"
+            },
+            {
+                title: "Алифатическая прозрачная полиуретановая жидкая мембрана Activecoat Tp-Lm 500",
+                desc: ["ACTIVECOAT TP-LM 500 - это однокомпонентный прозрачный жидкий алифатический гидроизоляционный материал на основе полиуретана с высокой устойчивостью к ультрафиолетовому излучению.", "Он отверждается влагой из воздуха. Он отлично прилипает к различным поверхностям, образуя высокоэластичную и прочную пленку с устойчивостью к ультрафиолетовому излучению.", "Он обладает отличными механическими и химическими свойствами, обладает высокой устойчивостью к растяжению, разрыву и истиранию.", "Он активен при передаче водяного пара. Пленка пропускает воздух и предотвращает скопление влаги в нижнем слое"]
+            },
+            {
+                title: "Армированная битумом полиуретановая жидкая мембрана Activecoat Bt-Lm 700",
+                desc: ["ACTIVECOAT BT-LM 700 представляет собой однокомпонентный жидкий гидроизоляционный материал, модифицированный полиуретаном и битумом. Он быстро отверждается и отлично прилипает к различным поверхностям, образуя высокоэластичную пленку.", "Он отлично прилипает к любым типам поверхностей. Прореживание не требуется.", "Отличные механические свойства обеспечивают высокую прочность на растяжение, растяжение, разрыв и износостойкость.", "Обладает хорошей химической стойкостью. Водяной пар является фактором проводимости. Пленка пропускает воздух и, таким образом, предотвращает скопление влаги под слоем.", "Позволяет наносить толстые слои, не пузырится. Создает мосты с высокими трещинами.", "Он является отличным покрытием и очень хорошо прилипает к поверхности.", "Легко и быстро наносится, предлагая простые решения для применения в изоляции деталей.", "Он обладает высокой термостойкостью и может использоваться при температуре от +80 °C до 200 °C. Дек. Нанесенная пленка сохраняет эластичность до – 40 °C."]
+            }
+        ]
+    }
 ]
 
 export const group__products__data__english = [
@@ -935,39 +990,48 @@ export const group__products__data__english = [
         sub_products: [
             {
                 title: "Spraying Polyurethane Foam Systems",
-                desc: ["They are polyurethane systems applied by spraying method. Being made in the form of a mobile application provides the advantage of application in all kinds of construction site environments and high structures.", "Thanks to spraying and on-site application, it takes the shape of the applied surface and thus provides the opportunity to be applied on almost all kinds of areas and surfaces"]
+                desc: ["They are polyurethane systems applied by spraying method. Being made in the form of a mobile application provides the advantage of application in all kinds of construction site environments and high structures.", "Thanks to spraying and on-site application, it takes the shape of the applied surface and thus provides the opportunity to be applied on almost all kinds of areas and surfaces"],
+                img: "/assets/products/rigid/kopuk.jpg"
             },
             {
                 title: "Solar Energy And Boiler Systems",
-                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the insulation of water tanks and boilers of solar energy systems.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."]
+                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the insulation of water tanks and boilers of solar energy systems.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."],
+                img: "/assets/products/rigid/solar_energy.jpg"
             },
             {
                 title: "Refrigerator And Refrigerant Systems",
-                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the production of household refrigerators, freezers, minibars, industrial refrigerators and ice cream cabinets.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."]
+                desc: ["They are polyurethane systems applied by molding method. They are polyurethane systems used in the production of household refrigerators, freezers, minibars, industrial refrigerators and ice cream cabinets.", "Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal."],
+                img: "/assets/products/rigid/fridge.jpg"
             },
             {
                 title: "Pipe And Tank Insulation Systems",
-                desc: ["They are polyurethane systems applied by injection method. They are polyurethane systems used in hot – cold water pipelines, tank insulation and geothermal pipelines.", "Spraying can be applied with spray machines and injection molding machines. it allows the production of geothermal pipes up to 12 m long."]
+                desc: ["They are polyurethane systems applied by injection method. They are polyurethane systems used in hot – cold water pipelines, tank insulation and geothermal pipelines.", "Spraying can be applied with spray machines and injection molding machines. it allows the production of geothermal pipes up to 12 m long."],
+                img: "/assets/products/rigid/pipe.jpg"
             },
             {
                 title: "Imitation Of Wood And Decorative Product Systems",
-                desc: ["They are polyurethane systems used in the production of imitation wood and decorative products. Compared to wood, it is the preferred material especially due to its resistance to moisture, fireproof property and superior mechanical strength.", "Papier-mâché, mirror frames, table and armchair legs, headboards, decorative and insulation uses are available in facade cladding."]
+                desc: ["They are polyurethane systems used in the production of imitation wood and decorative products. Compared to wood, it is the preferred material especially due to its resistance to moisture, fireproof property and superior mechanical strength.", "Papier-mâché, mirror frames, table and armchair legs, headboards, decorative and insulation uses are available in facade cladding."],
+                img: "/assets/products/rigid/wood.jpg"
             },
             {
                 title: "Cold Room Panel Systems",
-                desc: ["They are polyurethane systems applied by molding method. they are polyurethane systems that allow the production of panels up to 12m long and 20 cm thick. Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal.", "It is mainly used in the insulation of cold storage rooms used for the storage of meat, fruits, vegetables and other food products, the manufacture of refrigerated November boxes and the production of MOBO cabins."]
+                desc: ["They are polyurethane systems applied by molding method. they are polyurethane systems that allow the production of panels up to 12m long and 20 cm thick. Thanks to its excellent adhesion performance, there is no need to use an extra adhesive to adhere to the metal.", "It is mainly used in the insulation of cold storage rooms used for the storage of meat, fruits, vegetables and other food products, the manufacture of refrigerated November boxes and the production of MOBO cabins."],
+                img: "/assets/products/rigid/cold_room.jpg"
             },
             {
                 title: "Packaging Foam Systems",
-                desc: ["it is a packaging foam material used instead of styrofoam with a density of 8-15 kg/m3. It is a polyurethane system that takes the shape of the container containing only the material to be packaged without the need for any mold, and the material remains stationary without moving in the package, especially when packaging materials made of glass or electronic devices."]
+                desc: ["it is a packaging foam material used instead of styrofoam with a density of 8-15 kg/m3. It is a polyurethane system that takes the shape of the container containing only the material to be packaged without the need for any mold, and the material remains stationary without moving in the package, especially when packaging materials made of glass or electronic devices."],
+                img: "/assets/products/rigid/foam.jpg"
             },
             {
                 title: "Continuous Panel Systems",
-                desc: ["They are polyurethane systems used in sandwich panels produced by applying metal-metal or metal-membrane Decoupled between two plates in continuous lines. There are systems with 35-40 kg/m3 density and B1, B2, B3 combustion class. A new generation of environmentally friendly inflating gases are used in these systems."]
+                desc: ["They are polyurethane systems used in sandwich panels produced by applying metal-metal or metal-membrane Decoupled between two plates in continuous lines. There are systems with 35-40 kg/m3 density and B1, B2, B3 combustion class. A new generation of environmentally friendly inflating gases are used in these systems."],
+                img: "/assets/products/rigid/continuous_panel.jpg"
             },
             {
                 title: "Frigo refrigeration systems and modular panels",
-                desc: ["These are polyurethane systems that can be used by injection molding or billet. It is a polyurethane system used to insulate vehicles used in cold chain transportation. There is no need to use any adhesive in the injection system to ensure the adhesion of the material to fiberglass or metal."]
+                desc: ["These are polyurethane systems that can be used by injection molding or billet. It is a polyurethane system used to insulate vehicles used in cold chain transportation. There is no need to use any adhesive in the injection system to ensure the adhesion of the material to fiberglass or metal."],
+                img: "/assets/products/rigid/frigo.jpg"
             },
             {
                 title: "Sound Insulation Systems",
@@ -975,7 +1039,8 @@ export const group__products__data__english = [
             },
             {
                 title: "Furniture Industry Polyurethane Systems",
-                desc: ["They are two-component polyurethane systems used in the furniture industry. They are environmentally friendly polyurethane systems that are preferred to be used instead of wood because their thermal and mechanical resistance is superior."]
+                desc: ["They are two-component polyurethane systems used in the furniture industry. They are environmentally friendly polyurethane systems that are preferred to be used instead of wood because their thermal and mechanical resistance is superior."],
+                img: "/assets/products/rigid/furniture.jpg"
             },
             {
                 title: "Mineral Wool Glue Xps -Eps",
@@ -987,15 +1052,60 @@ export const group__products__data__english = [
             }
         ]
     },
-    // {
-    //     id: 10,
-    //     title: "",
-    //     desc: "",
-    //     sub_products: [
-    //         {
-    //             title: "",
-    //             desc: [""]
-    //         }
-    //     ]
-    // }
+    {
+        id: 10,
+        title: "Waterproofing and cladding systems",
+        desc: "",
+        sub_products: [
+            {
+                title: "Pure Polyurea - Activecoat Pure",
+                desc: ["It is a 100% solid and flexible aromatic system made of pure polyurea with very fast curing, formed by the reaction of an isocyanate prepolymer and a resin with a finite amine content.", "It is a fast and simple coating system that creates a film with high strength and durability on the surfaces on which it is applied, due to the excellent physical properties it possesses.", "It can be applied to many types of floors, including concrete, metal, wood, ceramics and polyurethane foam, for waterproofing and corrosion protection.", "This is an environmentally friendly coating because it does not contain solvents and volatile components. Since it cannot be sensitive to humidity and temperature, it can be used in many weather conditions. This material should be applied using multi-component high-pressure and heated sprayers."],
+                img: "/assets/products/waterproof/pool.jpg"
+            },
+            {
+                title: "Hybrid polyurea - Activecoat Hb",
+                desc: ["It is a 2-component hybrid polyurea system that cures very quickly.", "As an alternative to pure polyurea systems, it can be used on various surfaces for protection and coating, as well as on surfaces that do not require such chemical resistance as pure polyurea.", "It is not sensitive to moisture and reacts in seconds.", "It should be applied using multi-component machines with high pressure and heating."],
+                img: "/assets/products/waterproof/hb.jpg"
+            },
+            {
+                title: "Aliphatic polyurea - Activecoat Alp Pure 501-155",
+                desc: [
+                    "it is 100% solid, UV resistant flexible coating material. It is a coating designed to provide high color stability on floors exposed to constant sunlight and to prevent fading.", "It can be applied directly to many floors, as well as it can be used as a top coat on epoxy, polyurethane and polyurea systems.", "It has high color stability and UV resistance. When completely cured, it forms a coating material with high tensile and abrasion resistance.", "This material should be applied with high-pressure and heated multi-component spray machines."
+                ],
+                img: "/assets/products/waterproof/alp.jpg"
+            },
+            {
+                title: "Polyaspartic polyurea - Activecoat Pap Pure 601-156",
+                desc: ["Polyaspartic polyurea; It is a new generation aliphatic polyurea floor covering system with two components, UV resistance and color fading, which allows the desired floor covering.", "This system can be used directly as a thin coating, or it can also be applied as a top coat on existing coatings.", "It has high scratch and impact resistance.", "It can be applied to the floor with a roller, brush or airless system."],
+                img: "/assets/products/waterproof/pap.jpg"
+            },
+            {
+                title: "Hand-mixed polyurea - Activecoat Handmix 701-157",
+                desc: ["It is a 100% solid, flexible, two-component polyurea material that can be mixed by hand, self-leveling.", "The product allows manual mixing and use due to the slow gelling time.", "This superior material is used for grouting and repair purposes.", "The application can be made in difficult weather conditions and it is opened to pedestrian traffic 1 hour after the application.", "It is used safely in cold storage facilities and food processing plants where temperature and time are important."],
+                img: "/assets/products/waterproof/handmix.jpg"
+            },
+            {
+                title: "Polyurea for drinking water and food products - Activecoat Fca Pure 401-154",
+                desc: ["It is a 100% solid and flexible aromatic pure polyurea system with very fast curing property.", "Due to its superior physical properties, it forms a film with high strength and strength on the surfaces it is coated with.", "This polyurea has been produced specifically for use in floor applications in contact with drinking water."]
+            },
+            {
+                title: "Activecoat Lm 500 Aromatic Polyurethane liquid Membrane",
+                desc: ["ACTIVECOAT LM 500 is a one-component liquid waterproofing material based on polyurethane.", "It is cured by moisture from the air.", "It adheres perfectly to various surfaces, forming a highly elastic and durable film.", "It has excellent mechanical and chemical properties, and is highly resistant to stretching, tearing and abrasion.", "It is active in the transmission of water vapor. The film allows air to pass through and prevents the accumulation of moisture in the lower layer. Having an elastic structure, it is able to overcome the cracks of the retreat.", "The product contains a completely pure elastomeric hydrophobic polyurethane resin and special inorganic additives. It is easy to apply."],
+                img: "/assets/products/waterproof/lm-500.jpg"
+            },
+            {
+                title: "Liquid membrane made of aliphatic polyurethane Activecoat Al-Lm 500",
+                desc: ["ACTIVECOAT LM 500 is a one-component, polyurethane-based liquid waterproofing material.", "It is cured by moisture in the air. It adheres perfectly to different surfaces, creating a highly elastic and durable film.", "It shows excellent mechanical and chemical properties, provides high tensile, tear and wear resistance.", "It is effective in water vapor transmission. The film breathes and prevents moisture from accumulating in the lower layer. It has the ability to bridge the shrinkage cracks with its elastic structure.", "The product contains completely pure elastomeric hydrophobic polyurethane resin and special inorganic additives. It is easy to apply."],
+                img: "/assets/products/waterproof/al-lm-500.jpg"
+            },
+            {
+                title: "Activecoat Tp-Lm 500 Aliphatic Transparent Polyurethane Liquid Membrane",
+                desc: ["ACTIVECOAT TP-LM 500 is a one-component, transparent, polyurethane-based Aliphatic liquid waterproofing material with high UV resistance.", "It is cured by moisture in the air. It adheres perfectly to different surfaces, creating a highly elastic and durable film with UV resistance.", "It shows excellent mechanical and chemical properties, provides high tensile, tear and wear resistance.", "It is effective in water vapor transmission. The film breathes and prevents moisture from accumulating in the lower layer"]
+            },
+            {
+                title: "Bitumen Reinforced polyurethane liquid membrane Activecoat Bt-Lm 700",
+                desc: ["ACTIVECOAT BT-LM 700 is a one-component, polyurethane-bitumen modified, liquid waterproofing material. It cures quickly and adheres perfectly to different surfaces, forming a highly elastic film.", "It adheres perfectly to all types of surfaces. No thinning required.", "Excellent mechanical properties provide high tensile, flexural, tear and wear resistance.", "It has a good degree of chemical resistance. It is a factor in water vapor transmission.", "The film breathes and thus prevents moisture from accumulating under the floor. Allows the application of thick coats, does not bubble. It makes high crack bridging.", "It is an excellent coating and adheres very well to the surface. It is applied easily and quickly and offers easy solutions in detail insulation applications.", "It has high thermal resistance and can be used between +80°C and 200°C. Dec. The applied film retains its flexibility up to - 40 °C."]
+            }
+        ]
+    }
 ]

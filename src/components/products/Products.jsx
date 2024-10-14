@@ -31,14 +31,19 @@ const Products = () => {
                 {
                   data.sub_products.map((s, ind) => {
                     return <li key={ind}>
-                      <h3>{s.title}</h3>
-                      <ul>
-                        {
-                          s.desc.map((d, i) => {
-                            return <li key={i}><p>{d}</p></li>
-                          })
-                        }
-                      </ul>
+                      <div>
+                        <h3>{s.title}</h3>
+                        <ul>
+                          {
+                            s.desc.map((d, i) => {
+                              return <li key={i}><p>{d}</p></li>
+                            })
+                          }
+                        </ul>
+                      </div>
+                      {
+                        s.img ? <img src={s.img} alt={s.title} /> : <></>
+                      }
                     </li>
                   })
                 }
